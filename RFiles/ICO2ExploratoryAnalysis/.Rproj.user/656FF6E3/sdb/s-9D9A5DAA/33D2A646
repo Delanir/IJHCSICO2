@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433411919804.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "33D2A646",
+    "lastKnownWriteTime" : 30399714103066735,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "cluster_drivers",
+        "contentUrl" : "content?title=cluster_drivers&file=9b5d1dac319049f0a7eb23d7a9c6ffe0.htm",
+        "displayedObservations" : "334",
+        "displayedVariables" : 25,
+        "totalObservations" : "334",
+        "variables" : "25"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

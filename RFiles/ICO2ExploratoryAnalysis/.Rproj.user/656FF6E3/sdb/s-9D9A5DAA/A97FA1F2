@@ -1,0 +1,17 @@
+{
+    "contents" : "library(kml)\n\nlibrary(cluster)\nlibrary(fpc)\n\n\n\n\n\n\n\n\n# clus2 <- kmeans(normalized_behaviour, centers=2)\n# \n\n# \n\n\n\n\n### 8 clusters\nmydata <- jerk_clustering\ndelta <- sum(kmeans(mydata,\n                              centers=1)$withinss)\nwss <- (nrow(mydata)-1)*sum(apply(mydata,2,var))\nfor (i in 2:15) wss[i] <- sum(kmeans(mydata,\n                                     centers=i)$withinss)\nplot(1:15, wss, type=\"b\", xlab=\"Number of Clusters\",\n     ylab=\"Within groups sum of squares\")\n\nwss <- (nrow(mydata)-1)*sum(apply(mydata,2,var))\nfor (i in 2:15) wss[i] <- sum(kmeans(mydata,\n                                     centers=i)$withinss)/delta\nplot(2:15, wss, type=\"b\", xlab=\"Number of Clusters\",\n     ylab=\"Total sum of squares\")\n\n# Fig 01 3 clusters\nclus3 <- kmeans(mydata, centers=3)\nplotcluster(mydata, clus3$cluster)\n\n\nclus3table <- clus3$centers\nclus3$size\n# # # Fig 01 4 clusters\nclus4 <- kmeans(mydata, centers=4)\nplotcluster(mydata, clus4$cluster)\n\n\nclus4table <- clus4$centers\nclus4$size\n### 8 clusters\n\nmydata <- jerk_clustering_without_pauses\nwss <- (nrow(mydata)-1)*sum(apply(mydata,2,var))\nfor (i in 2:15) wss[i] <- sum(kmeans(mydata,\n                                     centers=i)$withinss)\nplot(1:15, wss, type=\"b\", xlab=\"Number of Clusters\",\n     ylab=\"Within groups sum of squares\")\n\n# Fig 01 3 clusters\nclus3 <- kmeans(mydata, centers=3)\nplotcluster(mydata, clus3$cluster)\n\n\nclus3table <- clus3$centers\nclus3$size\n# # # Fig 01 4 clusters\nclus4 <- kmeans(mydata, centers=4)\nplotcluster(mydata, clus4$cluster)\n\n\nclus4table <- clus4$centers\nclus4$size\n# # # Fig 01 6 clusters\nclus6 <- kmeans(mydata, centers=6)\nplotcluster(mydata, clus6$cluster)\n\n\nclus6table <- clus6$centers\nclus6$size\n\nfor (i in 1:nrow(mydata)) ccc4wopauses$class[i]<-clus4$cluster[i]\ncluster_drivers <- ccc4wopauses\n# mydata <- jerk_no_pauses\n# wss <- (nrow(mydata)-1)*sum(apply(mydata,2,var))\n# for (i in 2:15) wss[i] <- sum(kmeans(mydata,\n#                                      centers=i)$withinss)\n# plot(1:15, wss, type=\"b\", xlab=\"Number of Clusters\",\n#      ylab=\"Within groups sum of squares\")\n# \n# # Fig 01 3 clusters\n# clus3 <- kmeans(mydata, centers=3)\n# plotcluster(mydata, clus3$cluster)\n# \n# \n# clus3table <- clus3$centers\n# clus3$size\n# # # # Fig 01 4 clusters\n# clus4 <- kmeans(mydata, centers=4)\n# plotcluster(mydata, clus4$cluster)\n# \n# \n# clus4table <- clus4$centers\n# clus4$size\n\n",
+    "created" : 1433226814385.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "92317240",
+    "id" : "A97FA1F2",
+    "lastKnownWriteTime" : 1434088448,
+    "path" : "C:/Users/PrendingerLab/Desktop/ICO2PAPER/ICO2ExploratoryAnalysis/clusterjerk.R",
+    "project_path" : "clusterjerk.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

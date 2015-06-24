@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1434089287320.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "75D067D4",
+    "lastKnownWriteTime" : 8104303611833698607,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "quest_a",
+        "contentUrl" : "content?title=quest_a&file=927fbf68119b497c98c337fab466efa4.htm",
+        "displayedObservations" : 52,
+        "displayedVariables" : 4,
+        "totalObservations" : 52,
+        "variables" : 4
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

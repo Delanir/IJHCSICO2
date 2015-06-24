@@ -1,0 +1,617 @@
+\documentclass[preprint,authoryear,12pt]{elsarticle}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{amssymb}
+%\usepackage{amsmath}
+\usepackage{pslatex}
+\usepackage[overlap,CJK]{ruby}
+\usepackage{linguex}
+%\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{paralist}
+%\usepackage{setspace}
+
+
+\renewcommand{\baselinestretch}{1}
+\date{}
+\pagestyle{empty}
+
+\usepackage{color}
+\usepackage{soul}
+
+ \topmargin0mm
+ \headheight0mm
+ \headsep0mm
+ \oddsidemargin0cm
+ \textwidth15.5cm
+ \textheight23cm
+
+%% a useful little macro for comments and notes
+\newcommand{\MNOTE}[1]{\marginpar{\tiny\raggedright\em #1}}
+\setlength{\marginparsep}{2.2pt}
+\setlength{\marginparwidth}{40pt}
+%%\newcommand{\MNOTE}[1]{}
+\newcommand{\Dutchvon}[2]{#2}
+
+\setcounter{secnumdepth}{4}
+%\newcommand{\comment}[1]{{\color{blue}{#1}}}
+%\newcommand{\commenthp}[1]{{\color{red}{#1}}}
+%\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+
+\makeatletter
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+  {-3.25ex\@plus -1ex \@minus -.2ex}%
+  {1.5ex \@plus .2ex}%
+  {\normalfont\normalsize\mdseries}}
+\renewcommand{\subparagraph}{\@startsection{subparagraph}{5}{\z@}%
+  {-3.25ex\@plus -1ex \@minus -.2ex}%
+  {1.5ex \@plus .2ex}%
+  {\normalfont\normalsize\bfseries}}
+\makeatother
+
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Large-Scale Data Collection of Eco-Driving Behavior:
+Analysis of a Campaign with the iCO$_2$ Simulation Platform}
+
+\author[label1]{Helmut Prendinger}
+\author[label2]{Henrique T. Campos}
+\author[label2]{Hugo M.C. Damas}
+\author[label1]{Anjie Fang}
+\author[label1]{Bernd Hollerit}
+\author[label2]{Rui Prada}
+\author[label1]{Zhi Qu}
+
+%\author[label3]{Klaus Br\"ugmann}
+
+\address[label1]{{helmut@nii.ac.jp, fanganjie@gmail.com, hollerit@gmail.com, zq12721@my.bristol.ac.uk}\\
+	National Institute of Informatics, \\
+    2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo, 101-8430, Japan\\}
+
+\address[label2]{{henriquetcampos@gmail.com,hugo.damas@gmail.com,rui.prada@tecnico.ulisboa.pt}\\
+    INESC-ID and Instituto Superior T\'{e}cnico, Universidade de Lisboa,\\
+    Av. Prof. Cavaco Silva, Taguspark Porto Salvo, Portugal\\}
+
+%\address[label3]{{mail@klausbreugmann.de}\\
+%	??? \\
+%	Tokyo, Japan\\}
+
+\begin{abstract}
+We describe iCO$_2$, a simulation platform for collecting driving behavior data. For the user, iCO$_2$ is designed as a massively multiplayer online driving game for mobile devices. For the researcher, iCO$_2$ constitutes a Human Computation system that facilitates the collection of large-scale data on driving behavior to better understand incentive mechanisms for eco-driving and users' preferences. The main contribution of the paper is two-fold. First, we describe the newest version of our iCO$_2$ simulation platform, which has been extended to a game with a quest system and functions to upgrade the player's vehicle. Second, we present the results of a campaign with iCO$_2$ that uses a  game promoter to attract a large number of users in a short time. Our game run on servers in Asia, Europe and America. The results are described in terms of users' interaction with game elements and clustering of driving behavior. The novelty of the paper relates to the insights gained from analyzing driving behavior and preferences of users attracted via a mobile game promoter.
+\end{abstract}
+
+\begin{keyword}
+Data collection, data analysis, driving behavior, Human Computation system, Games with a Purpose, massively multiplayer online game
+\end{keyword}
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction and Motivation}\label{sec:intro}
+
+%Testing references:
+%\citep{Andrade+others.2005,Bellotti+others.2009,Hwang+Salvendy.2010,Csikszentmihalyi.1990}
+%\cite{Andrade+others.2005,Bellotti+others.2009,Hwang+Salvendy.2010,Csikszentmihalyi.1990}
+
+Our world today is tightly interconnected by the internet, which allows users from almost anywhere to access information anytime in an affordable and immediate manner. For scientists, this situation opens hitherto unknown opportunities for experimental testing of novel online applications. While in principle vast populations can  be reached quickly and effortlessly, motivating users to participate in social experiments is a big challenge. It is important to provide an adequate incentive other than money to the users, so that they do not have any motivation to cheat \citep{Quinn}.
+As a solution, Games With a Purpose (GWAP) have been proposed \citep{vonAhn2006Games}. GWAP is a field of Human Computation that seeks to motivate users, such as annotators of pictures or testers of applications, through enjoyment rather than any monetary incentive.
+
+The recent rise of mobile devices---such as smart phones, tablet computers or handheld game consoles---has rendered traditional lab studies impractical. Researchers have suggested a ten-step-program to conduct large-scale studies with mobile applications in order to obtain valuable data that cannot be collected in a lab setting:
+\begin{inparaenum}[\itshape 1\upshape)]\item Clearly identify the research goals; \item Select a study method; \item Devise an incentive mechanism;  \item Choose the target platform(s); \item Design and develop the mobile app; \item Prepare data collection; \item Implement a scheme to obtain informed consent from users; \item Distribute and promote the app; \item Continuously monitor data collection for a designated time period; \item Filter and analyze data to answer the research question \end{inparaenum} \citep{Henze2013}.
+
+In this paper, we broadly adhere to these steps and present iCO$_2$, a massively multiplayer online (MMO) driving game designed as a mobile application that allows players to practice eco-friendly driving. Notably, iCO$_2$ is a platform for collecting driving behavior data and in-game decision data from users.
+
+Our data collection platform uses a hybrid strategy to give an incentive to players, which is \begin{inparaenum}[\itshape a\upshape)] \item based on a mobile games promoter to attract players to the game and \item in-game mechanics to keep them playing. \end{inparaenum} We use Tapjoy\footnote{http://home.tapjoy.com/}, %\citep{TapJoy}
+a company that handles mobile games promotion, to attract a large number of users (in the 1000s) to iCO$_2$ within a short time. This approach constitutes an alternative to the tools and applications that have been used in research projects involving games \citep{kittur2008crowdsourcing,Biewald:2012,ChanH12}.
+In order to keep players motivated, we provide a quest system and the possibility to upgrade the user's car as in-game mechanics.
+
+The main contribution of this paper is a human-computer study that aims to help us understand how users interact with a mobile game on eco-driving. Since we built our own multiuser game, we had full access to all the behavior data of the users. We could obtain unique insights into the users' activities in terms of eco-driving types (eco-friendly, normal, etc.) and the usage of the ``garage'', where users could upgrade and modify their car with the in-game money rewarded from the quests. Our study is exploratory as it was difficult to formulate hypotheses on users' behavior beforehand. However, 
+
+%Our great objective is to collect real-time accurate big data, data that is to framed into a knowledge base relevant to eco-driving, which is why we also show and discuss how big a step iCO$_2$ has taken towards the smaller objective of helping individuals understand, and practice, eco-friendly driving in a more accessible and still relevant manner. Current technologies either involve linear 2D applications \citep{EcoGame1,EcoGame2,TruckEcoGame,Moebius,FiatEcoGame}, or driving simulators that must be played on the respective physical chair-wheel-and-pedals simulator \citep{EcoSimulator,GreenDino,EcoSimulator2,sabrina2013enhanced} or support applications or mini-games that focus on relevant information feedback \citep{FiatEcoGame,EcoTools,Brunnberg04theroad,endres2010youldeco}.
+
+%Managing a massively multiplayer application is very difficult work, as is acquiring users to participate in a serious game or a human computation system, but as we hope to demonstrate, iCO$_2$ has made good progress on all fronts and has definite potential for meaningful data retrieval and processing on a yet-unmatched scale.
+
+This paper is structured as follows. Section \ref{sec:background} provides background research on eco-driving games, training applications, crowdsourcing and games with a purpose. Section \ref{sec:platform} describes the iCO$_2$ simulation platform, which extends our previous version of iCO$_2$ \citep{prendingeroliveira2014} with a quest system and upgrade functions. Section \ref{sec:campaign} reports and discusses results from a campaign with iCO$_2$. Section \ref{sec:conclusions} concludes the paper.
+
+%The appendix contains additional tables in \ref{app:tables} and the list of abbreviations in \ref{app:abbreviations}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RELATED WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+\section{Related Work}\label{sec:background}
+
+We will first report on eco-driving games and training applications and analyze how iCO$_2$ differs by involving a massively multiplayer element, a mobile distribution method and a three dimensional (3D) environment.
+Then we will explain how our work can be positioned within the crowdsourcing literature.
+
+\subsection{Eco-driving Games and Training Applications}
+\label{subsec:eco-driving}
+
+The training of eco-driving is important as it greatly affects world-wide fuel expenditure and pollution emissions \citep{barkenbus2010eco,shaheen2012ecodriving}. Therefore, car manufacturers are starting to develop applications that provide drivers with some feedback on the effects of their driving behavior \citep{EcoTools,FiatEcoGame}.
+
+iCO$_2$ is first and foremost an eco-driving game. It has been designed to work as a massive multiplayer online (MMO) game. Therefore it is possible that users interact with each other, as they would in real life driving. It has been designed to be played in mobile systems so that it is as  accessible as possible by the masses. In particular, our target audience are gamers; a group that has seen its size and playtime exponentially grow over recent years \citep{MobileStats}.
+
+It is important to note that the player is not the only one who receives feedback on his or her  driving. Our underlying data gathering system can provide important information to future developers of iCO$_2$ on how to improve the design of the eco-driving simulator.
+
+The aforementioned qualities make iCO$_2$ stand out from any other eco-driving application in the industry.
+We have observed that applications that allow users to practice eco-friendly driving and to learn the impact that their performance has on their fuel consumption or gas emission are either 2D single-player games (\cite{EcoGame1, EcoGame2, TruckEcoGame, Moebius, FiatEcoGame}) or full-fledged simulators that can only be played with specific physical apparatus (\cite{EcoSimulator, GreenDino, EcoSimulator2, sabrina2013enhanced}).
+
+While there are MMO driving games, none of them allows users to keep track of the effect of their driving behavior on their fuel consumption and gas emissions. And while there are applications, even games, which incorporate the aforementioned features, none of them are MMO driving games.
+
+\subsection{Crowdsourcing and Games with a Purpose}
+
+We have defined our project as a Human Computation system, and not as a crowdsourcing system. \cite{Quinn} explain the difference comprehensively --- the most important distinction is that crowdsourcing involves the entire problem being tackled by a crowd of humans \citep{howe2008crowdsourcing}, while Human Computation involves only part of a problem being tackled by a crowd of humans.
+
+Our goal is to collect and discern driving behavior. Our users fill in for a part of the ``algorithm'' of data collection, which involves them ``providing behavior''. Our game neatly adheres to the definitions of Games With a Purpose given by \cite{Quinn} and \cite{vonAhn2006Games}, albeit with a slightly more ambiguous problem definition: to collect real-time behavioral driving data from users.
+
+Our method to provide the system with users is based on Tapjoy. Despite our system being focused on the enjoyment of players as the main strategy to motivate users to play through the game, we initially provide a monetary incentive, akin to other mobile games, to get the users into our system for the first time. Tapjoy works by offering mobile gamers in-game rewards for whatever game they are playing, in exchange for engaging with another game up to a specific requirement. In our experiment (see Section~\ref{sec:campaign}), we motivated users to try our game in that way: Tapjoy requires them to spend a certain amount of time in the game environment, after which only the enjoyment factor could keep them engaged.
+As mentioned in Section~\ref{subsec:eco-driving}, our game is an MMO, potentially involving a massive level of player interaction, which, in addition to the aforementioned characteristics, sets iCO$_2$ apart from other Games with a Purpose, as well as other crowdsourcing systems.
+
+
+\subsubsection{Crowdsourcing}
+
+\cite{Biewald:2012} and \citep{ChanH12} introduce systems that might be related to ours; however, they do not involve GWAP. Biewald presents a number of applications involving crowdsourcing and Human Computation, notably using the increasingly popular Mechanical Turk from Amazon \citep{MechTurk}, involving ethics, business and fun, putting a crowd of people to work immediately on simple tasks. These tasks involve answering questions that don't require any technical knowledge and performing Google searches. ``Sifu'' by \citep{ChanH12} is a system that supports language learning by providing tutoring services to readers of news sites and articles. Crowd members are recruited from an online social network instead of using the Mechanical Turk.
+
+We note that while these two applications use distinct sources of ``crowds for hire'', they are acquiring a group of users to participate in their research by performing specific tasks that constitute the experiment as a whole. This further illustrates why we consider iCO$_2$ a Human Computation system: iCO$_2$ is not meant to rely on hiring a crowd to do a (particular) job, but rather to play a game, have fun and practice eco-driving. As a side effect, the crowd will be providing reliable data about their behavior in an accessible manner, which is our target effect. However, our intended goals don't necessarily motivate the crowd of users. This is where Games with a Purpose come into play.
+
+\subsubsection{Games with a Purpose}
+
+iCO$_2$ is a Game with a Purpose: data collection. In particular, we are interested in driving behavior data, which constitutes a higher level purpose compared to other approaches. Considering this, we will contrast our project to other GWAPs that have been involved in research endeavors.
+
+\paragraph*{Image tagging -- ESP game, Peekaboom, Phetch, KissKissBan, Karido}
+
+Von Ahn et al. introduced the concept of GWAP with the now well-known ESP game \citep{vonAhn:2004}. Its purpose was to label images: players are matched one to one to try and guess which label their competitor is applying to the image that both of them are seeing. Subsequently, the project was improved and re-branded as Peekaboom \citep{vonAhn:2006} and Phetch \citep{vonAhn:2007}.
+
+KissKissBan \citep{Ho:2009} extended on previous approaches of player matching by integrating cooperative and competitive elements into a game with the purpose of annotating images. One player tries to make it so a pair of other players can't agree on a description about an image, which not only adds a cheating-proof mechanism but also promotes diversity of image annotations. Even later, these concepts were extended with more functionality by another team with their game Karido \citep{steinmayr2011karido}.
+
+All of these applications are successful in improving image databases, focusing on labeling, description, information (knowing what objects an image contains), and keyword/tag diversity (by providing similar images, so users are forced to choose differentiating keywords/tags), respectively. However, in all of them, even with being played by a massive crowd of players, user interaction is always on a small scale: one to one.
+
+\paragraph*{Audio tagging -- TagATune}
+
+A similar approach to the previously outlined image tagging endeavors is taken with TagATune \citep{Law:2009}, a game with a purpose that also matches players online one to one. They play a game of tagging a piece of music that may or may not be shared by the two and when they are offered each other's music and tags, they try and guess if it is indeed the same sound sample or not. The game resurfaced with the modified intent of gauging the success of machine-run algorithms that tag music \citep{vonAhn&Law:2009}.
+
+\paragraph*{User preference -- Matchin}
+
+Matchin \citep{Hacker:2009} is a GWAP that follows the same gameplay flow as ESP but instead of tagging, each player has two images and has to try and guess which one will be preferred by the matched player. The goal is to gather information on user preference for an image database.
+
+\paragraph*{Location tagging -- EyeSpy}
+
+EyeSpy \citep{Bell:2009}, more of a social networking endeavor, motivates players to tag locations with descriptions, and then others to confirm them, by having a point system and a ranking. Meanwhile, the system retrieves a collection of recognizable geographic details that can be used towards supporting navigation tasks. Notably, EyeSpy is available on web-browsers and mobile applications, akin to iCO$_2$.
+
+\paragraph*{Collecting common sense facts \& goals -- Verbosity, CommonConsensus}
+
+Verbosity \citep{vonAhnVerb:2006} and CommonConsensus \citep{lieberman2007}, while having different purposes, are both web-based knowledge games where players play via the browser to select an answer to given questions that is considered more or less correct. They are given a question and choose an answer they expect strangers to give. The more frequently an answer is given, the more correct it is considered. There is no user-to-user interaction in the case of these two applications besides interacting with the knowledge produced by the masses (which includes them). Verbosity sought to collect facts that were commonsense while Common Consensus sought to collect goals.
+
+\paragraph*{Prediction of protein structures -- Foldit}
+
+Foldit \citep{cooper2010predicting} puts players in a puzzle-solving game involving the prediction of protein structures. By providing online functionalities such as chatting or ranking, they keep their players engaged with both difficulty and socialization. Chatting and ranking are functionalities iCO$_2$ does not provide at this point, because we believe those features would distract from the core functionality and purpose of the game.
+
+\paragraph*{Behavioral data -- Caretaker}
+
+Caretaker \citep{Violi:2011} is a project that notably focuses on behavioral data, and the analysis thereof, that pertains to trust. Caretaker places four players in a board-like game that simulates a transport square-shaped network across which they have to travel from corners to center. Three players must ally against the fourth and arrive at the center before this common enemy, despite none of the three knows who the adversary is when the game starts. Their position in the network is the only publicly available information but the game offers a chat system to communicate as they wish. Violi et al. also logged player actions as a method through which they can match and confirm the behavioral information they receive from having the players submit a survey.
+
+\paragraph*{Comparison of previous Games with a Purpose to iCO$_2$}
+
+Caretaker has many similarities to iCO$_2$ as a Human Computation system: the player's actions and decisions are logged in order to analyze behavioral data.
+%and the users are playing with and against each other, which approximates real behavior. However, we posit that the goal of the ``bad'' player is to be the enemy of the other three, while the goal of the other three is to find out who their friends are. If they know who is who, they can cooperate to win.
+In iCO$_2$, the situations are potentially much more akin to real life circumstances, with drivers just encountering other motorists they know nothing about, and choosing how to interact with them based on the same variables that would influence them in a real scenario (situation, mood, etc). There is also the massive multiplayer element to iCO$_2$, which Caretaker does not have.
+
+When regarded as a whole, there is no research project quite like iCO$_2$. It has followed in the footsteps of previous Games with a Purpose, applying proven and time-tested strategies, but on a large scale in a previously untouched area of study.
+iCO$_2$ constitutes a Human Computation system, because we want to collect driving behavior and decision information from a massive quantity of users, while training them on eco-driving and providing them with enjoyment and fun.
+
+%\subsection{Analysis of Driving Data in Simulated Environments}
+
+\section{Our Approach: The iCO$_2$ Data Collection Platform}\label{sec:platform}
+
+The iCO$_2$ game is an online cross-platform driving simulator that provides players with a tool to practice eco-driving (see Figure~\ref{fig:iCO2_driving}). In the game, players drive around the game's scenario, a 1km$^2$ replica of Tokyo city. The virtual scenario's streets are populated with other players' cars and with computer controlled cars from our traffic simulator system \citep{Prendinger+others.2014}. As a result, traffic situations occur in the virtual environment, which can be utilized to investigate eco-driving policies \citep{Prendinger+others.2013} or traffic congestion \citep{Gajananan+others.2013}.
+
+In contrast to iCO$_2$'s predecessor version \citep{prendingeroliveira2014}, which contained two game modes, the latest version only contains one: Players are placed in an open world environment where they can explore freely and complete quests if they choose to. Also, contrary to the previous version, there is no end to the latest iteration of iCO$_2$; the player can keep doing quests at infinitum.
+
+By completing quests, players are rewarded with virtual currency, which is the key factor that motivates players to maintain eco-driving behaviors. Keeping fuel-efficient driving behavior reduces the amount of fuel spent when completing quests and thereby saving in-game money. If the players manage to save enough in-game money, they are able to improve the vehicle fleet by buying new cars and upgrading the owned cars towards eco-efficiency.
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=.95\linewidth]{ijhcs14-img/iCO2_driving}
+\caption{Screenshot of the iCO$_2$ game, which displays a player driving around the replica of Tokyo city. On the top-left, the car's velocity and fuel consumption information is displayed. The acceleration/break slider is located on the right.\label{fig:iCO2_driving}}
+\end{center}
+\end{figure}
+
+\subsection{Quests}
+
+The quests in iCO$_2$ are the main feature that motivate players to drive around the city and practice eco-driving. Each quest consists of a sequential set of legs. In each leg, the player has to transport passengers and/or cargo from a start point to a destination. When a player starts a quest, the first leg is triggered and only after that leg is completed the next one will be activated. While driving, the player can identify the legs' start and finish points as hovering arrows, as shown in Figure~\ref{fig:iCO2_driving}.
+
+Quests are dynamically generated so that the player always has multiple simultaneous quests to complete. Considering this, the game allows players to carefully plan their route before driving, in order to use the most efficient (eco-friendly) route possible. Besides planning the route, the player also needs to manage the car's accommodations, as the car cannot take more passengers and cargo than its maximum capacities (i.e., passengers' seats and cargo space).
+
+\subsection{Garage}
+
+With the in-game money rewarded from quests, players can go to their \textit{Garage} to upgrade their owned cars and increase their vehicle fleet's variety by purchasing new cars (see Figure 2). With the upgrades the players are able to enhance their cars' eco-friendliness (e.g.~upgrading the car to have an automatic start-stop engine). Further, the player is able to buy cars with different settings, such as engine power, mass, the capacities to carry passengers and cargo, etc. Also, in the \textit{Garage}, players are able to customize their cars with different colors.
+
+When the players own more than one car, it is up to them to decide which car to use according to the current set of quests that they have to complete, by taking into account the positions of the legs' start and finish points and the amount of passengers and cargo for each of the legs. Therefore, the player is able to choose between cars that have more carrying capacities, but high fuel consumption; or choose cars with a small capacity that consumes less fuel.
+
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=.80\linewidth]{ijhcs14-img/iCO2_garage}
+\caption{Screenshot of the iCO$_2$ \textit{Garage}, where the player can buy new vehicles and upgrades as well as repaint the owned cars.\label{fig:iCO2_garage}}
+\end{center}
+\end{figure}
+
+\subsection{Navigator}
+
+In the game, players can use the in-game \textit{Navigator} system (see Figure~\ref{fig:iCO2_navigator}) in order to enhance their route planning. This tool guides the players in the game's scenario, by displaying their cars' current position and the current start and finish points of the active quests' legs. Players can zoom in and out the map in order to better understand the street layout.
+
+Moreover, while driving, players are guided towards the legs' start and finish points by an augmented reality arrow (see Figure 1). The arrow points the players to the directions that they need to take in order to reach the start and finish points to the quests' legs.
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=.95\linewidth]{ijhcs14-img/iCO2_navigator}
+\caption{Screenshot of the \textit{Navigator} tool, which guides the player in the virtual scenario. The player's car is represented with the car icon. Blue icons represent the legs' start points, red icons mark the legs' end points. The arrows connect the origin to the destination.\label{fig:iCO2_navigator}}
+\end{center}
+\end{figure}
+
+\subsection{Eco-driving Mechanisms}
+
+In order to support eco-driving, the game provides players with visual information about the car's fuel/energy consumption. Instant consumption, 10 seconds consumption, 60 seconds consumption and overall consumption are portrayed in the top-left side of Figure 1. The timed consumption elements change colors according to the players' eco-efficiency. The colors go from green, when the player is eco-efficient, to red, when the player is consuming too much fuel.
+
+The implementation of the input controller for acceleration and breaking was an important design decision. As opposed to many other driving simulators, which feature a single button for acceleration and another button for breaking, we considered an option for a smooth change of pace tantamount; it should feel like using pedals in a real car. In order to achieve these nuances, we decided to provide a slider (shown on the right side in Figure~\ref{fig:iCO2_driving}), which lets users accelerate, decelerate and maintain constant speeds easily. For the mobile application, this feature was realized by touch controls, while the web player could be operated via mouse.
+
+\subsection{Implementation}
+
+The game was developed with the Unity3D game engine\footnote{www.unity3d.com}, which allows seamless porting of the iCO$_2$ game for different platforms. Therefore, the game can currently be played on mobile devices with Android or iOS, or in browsers via the Unity web player. This document will focus in the iCO$_2$ client for Android mobile devices. The game is available in English and Japanese.
+
+The online feature of iCO$_2$ is supported by DiVE (Distributed Virtual Environments), which is described in more detail in \cite{prendingeroliveira2014}. DiVE handles the communication between all the iCO$_2$ components (see Figure~\ref{fig:iCO2_generalarchitecture}), which we regard as DiVE clients.
+
+Each client works as follows: The ``Profile Client'' handles the persistency of the players' profile, which means that the game remembers how all the values that were changed by player, across play events. Players' profiles are associated to their Facebook accounts. Therefore, players do not need to perform any additional registration to iCO$_2$ and always retrieve their progress regardless of the platform that he/she is using to play the game. The ``Spawn Client'' manages where players spawn when they enter the game's scenario. With this system, we are able to distribute players evenly throughout the map. The ``Logging Client'' retrieves players' driving data, such as a car's position, velocity, etc., and stores it persistently in a database. The ``Traffic Simulator'' system controls all the computer-controlled cars and all the traffic lights in the virtual scenario.
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=.6\linewidth]{ijhcs14-img/iCO2_generalarchitecture}
+\caption{iCO$_2$ system architecture. The DiVE server supports the communication platform between all the different components that compose the iCO$_2$ system. The left side shows the clients, in different platforms, controlled by the player. The right side shows the clients that support the iCO$_2$ system.\label{fig:iCO2_generalarchitecture}}
+\end{center}
+\end{figure}
+
+%\section{Methodology}\label{sec:2campaigns}
+
+\subsection{Velocity and Acceleration}
+
+Velocity and acceleration are the two most important characteristics of a driver's behavior. Generally, when drivers keep accelerating and decelerating in an ``unfriendly'' manner, they tend to be uneconomical motorists, considering the petrol consumed. Energy consumption of a car is highly related with velocity and acceleration, which means that a car consumes more petrol the faster it goes. In this analysis, we mainly use clustering methods to identify the characteristics of eco-friendly and eco-unfriendly driving.
+
+In the iCO$_2$ game, users need to pick up customers and deliver them to different points to finish the game. This approach is more reasonable than just running in the express way for analyzing drivers' normal driving behaviors, as it considers the importance of acceleration and deceleration as mentioned above. The driver's data from the iCO$_2$ game is shown in Table \ref{T:drivingdata} in the Appendix. Each driver's positioning is recorded every 100 milliseconds, the location is expressed by distance in meters. According to the location information, the velocity and acceleration can be calculated by Equation \ref{eq:velocity}:
+\begin{equation}\label{eq:velocity}
+Velocity(i) = \frac{distance(i,j)}{i-j}
+\end{equation}
+where $distance(i,j)$ is calculated by the Euclidean distance. $i$ and $j$ represent two neighboring time stamps. Acceleration is calculated by Equation \ref{eq:acceleration}:
+\begin{equation}\label{eq:acceleration}
+Acceleration(i) = \frac{Velocity(i) - Velocity(j)}{i-j}
+\end{equation}
+After this calculation, each time stamp of a user is associated with a velocity and an acceleration.
+
+\section{A Campaign with the iCO$_2$ Simulation Platform}\label{sec:campaign}
+
+%In our international campaign, 7073 users played the iCO$_2$ game. We discarded the data of users who played less than 3 minutes, leaving us with statistics of 1562 players.
+
+In March 2014 we run a campaign with iCO$_2$ for two weeks and collected data of 3184 mobile users. The cost per user is less than one US dollar.
+The results of our data analysis will be discussed in the following sections.
+
+\subsection{Usage Statistics}
+
+Figures \ref{fig:engagement}, \ref{fig:completion}, \ref{fig:4diagrams} and \ref{fig:time} show different usage statistics of iCO$_2$. To understand these figures, we need to explain our definitions for ``quest'' and ``engagement''. A quest in iCO$_2$ encompasses the activity of picking up a passenger or cargo at a starting point and delivering them to a destination. For both activities, the player has to completely stop the car. An engagement contains of two of these aforementioned quests, which means that players who only completed one quest didn't finish the engagement (and hence does not receive any reward from Tapjoy).
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.95\linewidth]{ijhcs14-img/engagement}
+		\caption{iCO$_2$ statistics: Engagement.\label{fig:engagement}}
+	\end{center}
+\end{figure}
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.95\linewidth]{ijhcs14-img/completion}
+		\caption{iCO$_2$ statistics: Completion.\label{fig:completion}}
+	\end{center}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.95\linewidth]{ijhcs14-img/4diagrams2}
+		\caption{Various iCO$_2$ statistics.\label{fig:4diagrams}}
+	\end{center}
+\end{figure}
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.8\linewidth]{ijhcs14-img/time}
+		\caption{iCO$_2$ statistics: Average completion time.\label{fig:time}}
+	\end{center}
+\end{figure}
+
+
+Out of a total of 3184 players who played the iCO$_2$, 33\% finished the engagement while 67\% did not, as seen in Figure \ref{fig:engagement}. American players had the highest participation and completion rate, with 725 players finishing the engagement, while 864 did not. European users were most likely to abandon the engagement, with 887 players not finishing and only 149 completing the engagement. 392 Asian users, who were mostly from Japan, did not finish the engagement while 167 did.
+
+Figure \ref{fig:completion} shows the number of players that did not complete the engagement. Out of a total of 2143 users from the second campaign that didn't finish the engagement, 10\% of players finished one quest, 34\% quit before even starting, and 56\% didn't try to finish a quest. Out of the total of 1041 users from the second campaign that completed the engagement, 81\% left after the engagement and 19\% finished more than two quests.
+
+We can see various iCO$_2$ statistics in Figure \ref{fig:4diagrams}: The play-state switching distribution in Graph A, the transaction distribution in Graph B, the car switching distribution in Graph C and the car color distribution in Graph D. The play-stat was switched a total of 7969 times, mostly towards the driving state (47\%), followed by the garage (25\%), navigator (16\%), gas station (7\%) and lastly painting the car (5\%). Notice that this does not the time spent in a state, but the act of switching from one state to another. In graph B, we can see how users spent their in-game currency. Most of it was spent on car upgrades (53\%) and new cars (46\%), with only 1\% spent on fuel. A total of 1850 transactions were made. Users did not switch their cars very often, only a total of 55 switches occurred as denoted in graph C. Out of these, 46\% of players switched to the ``Fairlady'', 45\% switched to the ``Bladeglider'' and only 9\% switched to the Prius. As for the color distribution, the users preferred a red car by far (39\%), followed by green and blue (22\% each) and the less popular white (9\%), yellow (5\%) and grey (3\%). In total, cars were recolored 243 times.
+
+The average time to complete an engagement is 14 minutes and 42 seconds, as seen in Figure \ref{fig:time}. If we deem all times over 60 minutes outliers, the average completion time drops off to 4 minutes and 23 seconds. It further diminishes to 3 minutes and 53 seconds, if we consider all times over 30 minutes as outliers, to 3 minutes and 26 seconds with outliers over 10 minutes and to 2 minutes and 45 seconds, if we ignore all times over 5 minutes.
+
+\subsection{Clustering}
+
+Clustering was performed to understand the user (players) types in terms of eco-driving behavior.
+As a preparation step, time stamps are divided into different pre-set ranges of acceleration and velocity. Acceleration ranges are set from $-5$ m/s$^2$ to 5 m/s$^2$ (12 ranges, see Figure \ref{fig:accel-ranges}) and velocity ranges from 0 km/h to 120 km/h (5 ranges, see Figure \ref{fig:vel-ranges}). We calculate the percentage that a user spends in a certain range using time stamps in a 100ms interval. Accordingly, a user can be represented by 17 categories, which are expressed in the percentage of time spent in a certain range.
+
+Clustering is a form of unsupervised machine learning. It is used to group data into different chunks, where data from the same group has similar characteristics and data from different groups is dissimilar. Clustering is often applied when the classification details of users are unknown; hence it is a kind of exploratory analysis. No classification standard in advance is needed before clustering.
+
+In our work, $k$-means clustering is used \citep{KMEAN.1979}. Before running the cluster, the users' data is normalized, which balances the weight of 17 features corresponding to 12 acceleration ranges and 5 velocity ranges.
+
+The sum of squares due to error (SSE) is used to measure the level of convergence of the clusters. The cluster is better the smaller the SSE is. The SSE is calculated by Equation \ref{eq:sse}.
+\begin{equation}\label{eq:sse}
+SSE = \sum\limits_{i=1}^{k} \sum\limits_{x \in C_{i}}distance(m_{i},x)
+\end{equation}
+
+The SSE can also be used to determine the best number of clusters. We analyzed $k$ from 3 to 10 (8 tests) and selected the $k$ with the smallest SSE according to our tests. Here, $k$ is set to 4.
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.8\linewidth]{ijhcs14-img/accel-ranges-bw4}
+		\caption{Clustering of users' driving behavior based on acceleration.\label{fig:accel-ranges}}
+	\end{center}
+\end{figure}
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.8\linewidth]{ijhcs14-img/vel-ranges-bw1}
+		\caption{Clustering of users' driving behavior based on velocity.\label{fig:vel-ranges}}
+	\end{center}
+\end{figure}
+
+Figure \ref{fig:accel-ranges} shows the cluster information of percentages in the 12 acceleration ranges and Figure \ref{fig:vel-ranges} shows the information for the 5 velocity ranges.
+The four clusters (lines) in Figures \ref{fig:accel-ranges} and \ref{fig:vel-ranges} deal with the same dataset. In order to better distinguish between acceleration and velocity ranges, they are separated into two figures. Generally, the acceleration of the car is between $-$4 m/s$^2$ and 4 m/s$^2$. Here, the total range is set from $-$5 m/s$^2$ and 5 m/s$^2$in order to take more situations into account.
+
+In Figure \ref{fig:accel-ranges}, the time percentage of acceleration belonging to [-1,1] m/$^2$ occupies the most in these four clusters. This is reasonable, given the users need pick up customers in different places. The entire driving behavior of a certain user is mainly composed of accelerating and decelerating, considering that city traffic is convoluted. 95\% of the Cluster 3 in Figure \ref{fig:accel-ranges} accelerate and decelerate between $[-1,1]$ m/s$^2$, which means Cluster 3 has a very smooth driving style. Apart from range $[-1,1]$, the time percentages of Cluster 3 in other ranges are lower than in the other three clusters, which further proves that Cluster 3 comprises more eco-friendly drivers. On the other hand, the drivers of Cluster 2 spend less time in the $[-1,1]$-range and more time in the $[-infinite,-1]$ and $[1,+infinite]$-range than the other three clusters. Therefore, Cluster 2 can be singled out as more unfriendly than others. Clusters 1 and 4 range between Clusters 2 and 3.
+
+Regarding appropriate driving styles in a city, the velocity should be below 60 km/h. In Figure \ref{fig:vel-ranges}, the ranges $[0,30]$ and $[30, 60]$ km/h represent the normal velocity ranges. Clusters 3 and 1 are almost same. They both consume the most of time in normal velocity ranges. For Cluster 2, we observe the velocity time percentage to be situated in the more extreme ranges. Accordingly, Cluster 2 is unfriendly since the velocity is too high.
+
+In order to evaluate the eco-level of the clusters, we introduce Equations \ref{eq:factor-accel} and \ref{eq:factor-vel} to calculate two factors, $factor_{accel}$ and $factor_{vel}$.
+\begin{equation}\label{eq:factor-accel}
+factor_{accel} = \sum\limits_{i=1}^{n} A_{range_{i}} \times P_{range_{i}}
+\end{equation}
+\begin{equation}\label{eq:factor-vel}
+factor_{vel} = \sum\limits_{i=1}^{n} V_{range_{i}} \times P_{range_{i}}
+\end{equation}
+where $A_{range_{i}}$ represents the average absolute value of acceleration range $i$, $V_{range_{i}}$ represents the average value of velocity range $i$, and $P_{range_{i}}$ represents the time percentage of acceleration range $i$.
+The smaller these two factors are, the more eco-friendly the cluster is.
+
+Detailed results are shown in Table \ref{T:factors} and interpreted in Table \ref{T:cluster-expl}.
+
+%sorted table
+\begin{table}[!h]
+\renewcommand*{\arraystretch}{1.4}
+\caption{Cluster summary.}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+Cluster & $factor_{accel}$ & $factor_{vel}$ & \% of Users \\
+\hline
+1 &	 0.85755 & 18.9105  &  28 \\
+
+2 &   1.58430	 & 33.6990  &   9  \\
+
+3 &	 0.64300	 & 19.6500  &  42  \\
+
+4 & 1.20970	 & 21.8175  &  21  \\
+\end{tabular}
+\end{center}
+\label{T:factors}
+\end{table}
+
+\begin{table}[!h]
+\renewcommand*{\arraystretch}{1.4}
+\caption{Interpretation of cluster summary.}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+Cluster & Acceleration Level & Velocity Level & Categorization \\
+\hline
+1 &	 Moderate & Low  &  Gentle driver \\
+
+2 &   High	 &  High  &   ``Crazy'' driver  \\
+
+3 &	 Low	 & Low-Moderate  & Eco-driver  \\
+
+4 & Neutral	 & Neutral  & Normal driver  \\
+\end{tabular}
+\end{center}
+\label{T:cluster-expl}
+\end{table}
+
+
+\section{Conclusions} \label{sec:conclusions}
+
+In this paper, we describe iCO$_2$, a game-like simulation platform for collecting large-scale driving behavior data and other data on users' in-game activities, such as upgrading the user's car. As a research tool, iCO$_2$ can be seen as a Human Computation system where humans provide driving behavior to better understand eco-friendly driving in a game that motivates its players to drive eco-friendly. In this way, our system is related to other activities aimed at attracting users' work, such as Games with a Purpose or crowdsourcing.
+
+
+The main contribution of the paper is three-fold. First, we describe the newest version of our iCO$_2$ simulation platform, which has been extended to a game with a quest system and functions to upgrade the player's vehicle. Second, we demonstrate that a mobile game promoter is an efficient tool to attract a large number of users in a short time. Finally, we present the results of a campaign using the game promoter. The results are described in terms of users' interaction with game elements and clustering of driving behavior. The novelty of the paper relates to the insights gained from analyzing driving behavior and preferences of users attracted via a mobile game promoter.
+
+
+
+We discussed the current developments of the internet, mobile devices, Games With A Purpose (GWAP) as a means of collecting massive amounts of data from users within a reasonable time frame. GWAP motivates players with incentives other than money, such as enjoyment, so that they don't have any motivation to cheat. In the related work, we debate preexisting eco-driving games and training applications and reason that no massively multiplayer online (MMO) eco-driving games existed to date.
+
+With the objective of raising awareness for eco-friendly driving and collecting Big Data, we designed and implemented the MMO driving game ``iCO$_2$'', according to state of the art research on GWAP and preceding driving simulators. In order to populate our software with users, we conducted two campaigns with Tapjoy, which resulted in 7073 players from America, Europe and Asia being drawn to our game. Out of those, 258 users finished our engagement (consisting of two quests of picking up passengers or cargo and transferring them to a destination point) in our first campaign and 1041 users in our second campaign. If we consider everyone who played the game for more than 30 minutes an outlier, we could engage the average user for 3 minutes and 53 seconds in our second campaign. Amoung others, we collected and reported statistics for the play-state switching, transaction, car switching and car color distribution: The most frequently active game state was driving (47\%), most in-game currency was spent on car upgrades (53\%), players switched evenly to the ``Fairlady'' as well as ``Bladeglider'' car models (45\%/46\%, respectively) and the most used color for cars was red (39\%).
+
+Our data analysis shows that drivers can be grouped into four clusters: The Eco-Driver (42\% of all users), who drives with a low acceleration and a low-moderate velocity; the gentle driver (28\%), who displays a moderate level of acceleration and a low velocity; the normal driver (21\%) with a neutral acceleration and velocity level; and the "crazy" driver (9\%), who exhibits a high acceleration as well as velocity level. These numbers underline that 58\% of drivers could use re-education when it comes to eco-friendly driving.
+
+Therefore, we plan to integrate our application in a real-world environment and provide more incentives and feedback for our users in the future. We also aim to confirm our findings by comparing them to actual real data, as players might act differently in the toolbox-environment of an online game.
+
+% \section{Acknowledgments}
+
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+
+\section*{References}
+\bibliographystyle{elsarticle-harv}
+\bibliography{ijhcs-2014}
+
+%\appendix
+
+%\section{Additional Tables}\label{app:tables}
+%This section contains additional tables of our findings.
+
+%sorted table
+%\begin{table}[!h]
+%\renewcommand*{\arraystretch}{1.4}
+%\caption{Example of driving behavior data.}
+%\begin{center}
+%\begin{tabular}{c|c|c|c}
+%Timestamp & Position $X$ & Position $Y$ & Position $Z$ \\
+%\hline
+%1 & 299.5657 & 1.241717 & 0.065165 \\
+
+%2 & 299.2299 & 3.699343 & 0.065120  \\
+
+%3 & 299.2299 & 3.699343 & 0.06512 \\
+
+%4 & 298.8777 & 6.260628 & 0.066202 \\
+
+%5 & 298.8777 & 6.260628 & 0.066202 \\
+
+%6 & 298.7033 & 7.509112 & 0.066517 \\
+
+%\ldots &  \ldots & \ldots & \ldots \\
+
+%2635 & 300.7204	& $-$6.95397 & 0.064981 \\
+
+%2636 & 300.8299	& $-$7.72201 & 0.065020 \\
+
+%2637 & 300.8299	& $-$7.72201 & 0.065020 \\
+
+%2638 & 301.0301	& $-$9.08316 & 0.065068 \\
+
+%2639 & 301.1052	& $-$9.57525 & 0.065062
+%\end{tabular}
+%\end{center}
+%\label{T:drivingdata}
+%\end{table}
+
+
+%sorted table
+%\begin{table}[!h]
+%\renewcommand*{\arraystretch}{1.4}
+%\caption{Acceleration ranges and example values of user in those ranges.}
+%\begin{center}
+%\begin{tabular}{c|c}
+%Range & Value \\
+%\hline
+%[$-$infinite, $-$5.00] & 15.5022 \\
+
+%[$-$5.00, $-$4.00]	& 5.0364 \\
+
+%[$-$4.00, $-$3.00]	& 11.1235 \\
+
+%[$-$3.00, $-$2.00]	& 4.0027 \\
+
+%[$-$2.00, $-$1.00]	& 21.825 \\
+
+%[$-$1.00, 0.00]	& 20.3731 \\
+
+%[0.00, 1.00]	& $-$0.19349 \\
+
+%[1.00, 2.00]	& $-$0.01021 \\
+
+%[2.00, 3.00]	& 3.7433 \\
+
+%[3.00, 4.00]	& 3.5839 \\
+
+%[4.00, 5.00]	& 4.5173 \\
+
+%[5, +infinite]	& 13.6953 \\
+%\end{tabular}
+%\end{center}
+%\label{T:acceleration}
+%\end{table}
+
+
+%sorted table
+%\begin{table} [!h]
+%\renewcommand*{\arraystretch}{1.4}
+%\caption{Velocity ranges and example values of user in those ranges.}
+%\begin{center}
+%\begin{tabular}{c|c}
+%Range & Value \\
+%\hline
+%[0.00, 30.00] &	     0.113387 \\
+
+%[30.00, 60.00] &	$-$0.03678 \\
+
+%[60.00, 90.00] &	$-$0.12182 \\
+
+%[90.00, 120.00] &	$-$0.05689 \\
+
+%[120,  +infinite] &	$-$0.05036
+%\end{tabular}
+%\end{center}
+%\label{T:velocity}
+%\end{table}
+
+
+
+
+%\section{Additional Charts}
+%% \label{}
+%This section contains additional charts from our campaigns.
+
+%\begin{figure}[ht]
+% \centering
+% \subfigure[Campaign requirements]{
+%  \includegraphics[scale=0.5]{ijhcs14-img/tapjoy}
+%   \label{fig:requirements}
+%   }
+% \subfigure[Display of iCO$_2$ in game list]{
+%  \includegraphics[scale=0.55]{ijhcs14-img/gamelist}
+%   \label{fig:gamelist}
+%   }
+% \label{fig:tapjoy}
+% \caption[Tapjoy campaign]{%
+%  Tapjoy campaign
+%  }
+%\end{figure}
+
+
+%\clearpage % Start a new page
+
+%\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+%\section{Abbreviations}\label{app:abbreviations}
+%\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+%\begin{tabular}{ l | l }
+%	\textbf{3D} & \textbf{3} \textbf{D}imensional \\
+%	\textbf{DiVE} & \textbf{Di}stributed \textbf{V}irtual \textbf{}Environments \\
+%	\textbf{ESP} & \textbf{E}xtra\textbf{s}ensory \textbf{P}erception  \\
+%   \textbf{GWAP} & \textbf{G}ames \textbf{W}ith \textbf{A} \textbf{P}urpose \\
+%    \textbf{iOS} & \textbf{i}Phone \textbf{O}perating \textbf{S}ystem \\
+%    \textbf{MMO} & \textbf{M}assive \textbf{M}ultiplayer \textbf{O}nline \\
+%    \textbf{MMOG} & \textbf{M}assive \textbf{M}ultiplayer \textbf{O}nline \textbf{G}ame \\
+%    \textbf{SSE} & \textbf{S}um of \textbf{S}quares due to \textbf{E}rror \\
+%\end{tabular}
+
+
+%\begin{figure}[htb]
+%\begin{center}
+%\includegraphics[width=.4\linewidth]{ijhcs14-img/tapjoy}
+%\caption{Requirements of the Tapjoy campaign.\label{fig:requirements}}
+%\end{center}
+%\end{figure}
+
+%\begin{figure}[htb]
+%\begin{center}
+%\includegraphics[width=.4\linewidth]{ijhcs14-img/gamelist}
+%\caption{Presentation of iCO$_2$ campaign in game list.\label{fig:gamelist}}
+%\end{center}
+%\end{figure}
+
+\end{document}
+%%% Local Variables:
+%%% coding: euc-japan 

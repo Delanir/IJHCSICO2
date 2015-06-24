@@ -1,0 +1,17 @@
+{
+    "contents" : "library(kml)\n\nlibrary(cluster)\nlibrary(fpc)\n\n\n\n\n\nnormalized_behaviour <- cluster[,c(-1, -2,-3)]\n\n\n# clus2 <- kmeans(normalized_behaviour, centers=2)\n# \n\n# \n\n\n\n\n### 8 clusters\nmydata <- normalized_behaviour\nwss <- (nrow(mydata)-1)*sum(apply(mydata,2,var))\nfor (i in 2:15) wss[i] <- sum(kmeans(mydata,\n                                     centers=i)$withinss)\nplot(1:15, wss, type=\"b\", xlab=\"Number of Clusters\",\n     ylab=\"Within groups sum of squares\")\n\n# Fig 01 8 clusters\nclus8 <- kmeans(normalized_behaviour, centers=8)\nplotcluster(normalized_behaviour, clus8$cluster)\n\nwith(cluster, pairs(normalized_behaviour, col=c(1:8)[clus8$cluster])) \n\n\n# # Fig 01 4 clusters\n\n# \nclus4 <- kmeans(normalized_behaviour, centers=4)\nplotcluster(normalized_behaviour, clus4$cluster)\nwith(cluster, pairs(normalized_behaviour, col=c(1:4)[clus4$cluster]))\n\n\ncorrelation_eco_cluster<-cluster[1]\ncorrelation_eco_cluster$driver_type<- ordered(cluster$driver_type, levels = c(\"Eco\", \"Gentle\", \"Normal\", \"Crazy\"))\ncorrelation_eco_cluster$behaviour_type<- clus4$cluster\ncorrelation_eco_cluster$rank_more_emphasis_on_driving<- ordered(clus4$cluster, levels = c(2,1,4,3))\n\ncor(as.numeric(correlation_eco_cluster$driver_type), as.numeric(correlation_eco_cluster$rank_more_emphasis_on_driving))\n\n#Modders\nwith(correlation_eco_cluster,prop.table(table(driver_type,behaviour_type)))\n\n\n\n\n\n##new analysis\n\ncorrelation_eco_b <-merge(x = cluster_drivers, y = correlation_eco_cluster, by.y = \"driver_id\",by.x = \"DriverID\")\n\n\ncorrelation_eco_b$driver_type<- ordered(correlation_eco_b$Cluster, levels = c(1, 3, 4, 2))\nwith(correlation_eco_b,prop.table(table(driver_type,behaviour_type)))\n",
+    "created" : 1430367177229.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1511148668",
+    "id" : "DE6300E7",
+    "lastKnownWriteTime" : 1433414398,
+    "path" : "C:/Users/PrendingerLab/Desktop/ICO2PAPER/ICO2ExploratoryAnalysis/kmeans.R",
+    "project_path" : "kmeans.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433227083355.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B7C47E09",
+    "lastKnownWriteTime" : 1,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "jerk_clustering_without_pauses",
+        "contentUrl" : "content?title=jerk_clustering_without_pauses&file=e6e4bdc5e5144d8d8d9f41a9d87d8886.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 22,
+        "totalObservations" : "1039",
+        "variables" : "22"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

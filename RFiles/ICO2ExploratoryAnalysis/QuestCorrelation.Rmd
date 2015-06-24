@@ -1,0 +1,73 @@
+---
+title: "QuestBehaviour"
+author: "DanielaFontes"
+date: "Tuesday, April 27, 2015"
+output: html_document
+---
+
+
+---
+```{r,echo=FALSE}
+#load("C:/Users/PrendingerLab/Desktop/ColourCorrelationAnalysis/data.RData")
+#load("C:/Users/PrendingerLab/Desktop/ColourCorrelationAnalysis/data1.RData")
+#load("C:/Users/PrendingerLab/Desktop/ColourCorrelationAnalysis/data_29_4.RData")
+load("C:/Users/PrendingerLab/Desktop/ICO2PAPER/ICO2ExploratoryAnalysis/.RData")
+quest_a <- merge(x = cluster_drivers, y = quests_a, by.y = "driver_id",by.x = "DriverID")
+quest_e <- merge(x = cluster_drivers, y = quests_e, by.y = "driver_id",by.x = "DriverID")
+quest_u <-merge(y = quests_u, x = cluster_drivers, by.y = "driver_id",by.x = "DriverID")
+
+quest_a$driver_type_ordered <- ordered(quest_a$Cluster, levels = c(1, 4, 2, 3))
+quest_e$driver_type_ordered <- ordered(quest_e$Cluster, levels = c(1, 4, 2, 3))
+quest_u$driver_type_ordered <- ordered(quest_u$Cluster, levels = c(1, 4, 2, 3))
+
+
+
+
+quest_a <- merge(x=quest_a, y=refueled_a, by.y = "driver_id",by.x = "DriverID")
+quest_e <- merge(x=quest_e, y=refueled_e, by.y = "driver_id",by.x = "DriverID")
+quest_u <- merge(x=quest_u, y=refueled_u,by.y = "driver_id",by.x = "DriverID")
+
+hist(quest_a$completion_rate, breaks=5)
+hist(quest_e$completion_rate, breaks=5)
+hist(quest_u$completion_rate, breaks=5)
+
+
+```
+
+Correlation between being eco-unfriendly and quest completion rate
+```{r}
+cor(as.numeric(quest_a$driver_type_ordered),quest_a$completion_rate, method="kendall")
+cor(as.numeric(quest_e$driver_type_ordered),quest_e$completion_rate, method="kendall")
+cor(as.numeric(quest_u$driver_type_ordered),quest_u$completion_rate, method="kendall")
+
+
+plot(quest_a$completion_rate,as.numeric(quest_a$driver_type_ordered))
+```
+
+Correlation between being eco-unfriendly and number of quests started
+```{r}
+cor(as.numeric(quest_a$driver_type_ordered),quest_a$num_quests_started, method="spearman")
+cor(as.numeric(quest_e$driver_type_ordered),quest_e$num_quests_started, method="spearman")
+cor(as.numeric(quest_u$driver_type_ordered),quest_u$num_quests_started, method="spearman")
+# 
+cor(as.numeric(quest_a$driver_type_ordered),quest_a$num_quests_started, method="kendall")
+cor(as.numeric(quest_e$driver_type_ordered),quest_e$num_quests_started, method="kendall")
+cor(as.numeric(quest_u$driver_type_ordered),quest_u$num_quests_started, method="kendall")
+```
+
+Correlation between being eco-unfriendly and number of quests completed
+```{r}
+cor(as.numeric(quest_a$driver_type_ordered),quest_a$num_quests_completed, method="kendall")
+cor(as.numeric(quest_e$driver_type_ordered),quest_e$num_quests_completed, method="kendall")
+cor(as.numeric(quest_u$driver_type_ordered),quest_u$num_quests_completed, method="kendall")
+```
+
+Correlation between being eco-unfriendly and number of times the player refueled
+```{r}
+cor(as.numeric(quest_a$driver_type_ordered),quest_a$number_times_refuel, method="spearman")
+cor(as.numeric(quest_e$driver_type_ordered),quest_e$number_times_refuel, method="spearman")
+cor(as.numeric(quest_u$driver_type_ordered),quest_u$number_times_refuel, method="spearman")
+
+
+```
+

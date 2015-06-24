@@ -1,0 +1,557 @@
+@inproceedings{Andrade+others.2005,
+ author = {Andrade, G. and Ramalho, G. and Santana, H. and Corruble, V.},
+ title = {Extending reinforcement learning to provide dynamic game balancing},
+ booktitle = {Proceedings of the Workshop on Reasoning, Representation, and Learning in Computer Games,
+           at 19th International Joint Conference on Artificial Intelligence (IJCAI)},
+ year = 2005,
+ pages = {7-12}
+}
+
+@article{Bellotti+others.2009,
+ author = {Bellotti, F. and Berta, R. and De Gloria, A. and Primavera, L.},
+ title = {Adaptive Experience Engine for Serious Games},
+ journal = {IEEE Transactions on Computational Intelligence and AI in Games},
+ volume = 1,
+ number = 4,
+ year = 2009,
+ pages = {264--280}
+}
+
+@book{Csikszentmihalyi.1990,
+ author = {M. Csikszentmihalyi},
+ title = {Flow: The Psychology of Optimal Experience},
+ publisher = {Harper and Row, New York},
+ year = {1990}
+}
+
+@article{KMEAN.1979,
+  author={J. A. Hartigan and M. A. Wong},
+  title={A {K}-Means Clustering Algorithm},
+  journal={Applied Statistics},
+  volume=28,
+  pages={100--108},
+  year=1979
+}
+
+@article{Hwang+Salvendy.2010,
+ author = {Hwang, W. and Salvendy, G.},
+ title = {Number of People Required for Usability Evaluation: The $10\pm2$ Rule},
+ journal ={Communications of the ACM},
+ volume = {53},
+ number = {5},
+ pages = {130--133},
+ year = {2010}
+}
+
+@inproceedings{Quinn,
+ author = {Quinn, Alexander J. and Bederson, Benjamin B.},
+ title = {Human Computation: A Survey and Taxonomy of a Growing Field},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '11},
+ year = {2011},
+ isbn = {978-1-4503-0228-9},
+ location = {Vancouver, BC, Canada},
+ pages = {1403--1412},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {crowdsourcing, data mining, human computation, literature review, social computing, survey, taxonomy},
+}
+
+@article{vonAhn2006Games,
+  added-at = {2011-02-08T14:37:13.000+0100},
+  address = {Los Alamitos, CA, USA},
+  author = {von Ahn, L.},
+  journal = {Computer},
+  keywords = {articles collaboration collaborative computation computer diks distributed folksonomy human indexing information methods pictures subject-access tagging web20},
+  month = {June},
+  number = 6,
+  pages = {92--94},
+  posted-at = {2008-12-31 08:09:18},
+  priority = {0},
+  publisher = {IEEE Computer Society Press},
+  timestamp = {2011-02-08T14:37:13.000+0100},
+  title = {{Games with a Purpose}},
+  url = {http://www.cs.cmu.edu/~biglou/ieee-gwap.pdf},
+  volume = 39,
+  year = 2006
+}
+
+@inproceedings{kittur2008crowdsourcing,
+  title={Crowdsourcing user studies with Mechanical Turk},
+  author={Kittur, Aniket and Chi, Ed H and Suh, Bongwon},
+  booktitle={Proceedings of the SIGCHI conference on human factors in computing systems},
+  pages={453--456},
+  year={2008},
+  organization={ACM}
+}
+
+@incollection{Biewald:2012,
+year={2012},
+booktitle={Current Trends in Web Engineering},
+volume={7059},
+series={Lecture Notes in Computer Science},
+editor={Harth, Andreas and Koch, Nora},
+title={Massive Multiplayer Human Computation for Fun, Money, and Survival},
+publisher={Springer Berlin Heidelberg},
+author={Biewald, Lukas},
+pages={171--176}
+}
+
+@inproceedings{ChanH12,
+  author = {Chan, Cheng-Wei and Hsu, Yung-Jen},
+  booktitle = {AAAI Spring Symposium: Wisdom of the Crowd},
+  publisher = {AAAI},
+  series = {AAAI Technical Report},
+  title = {Sifu: Interactive Crowd-Assisted Language Learning},
+  pages = {16--20},
+  year = 2012
+}
+
+@misc{EcoGame1,
+  key          = "Eco Sports Drive",
+  title        = "Eco Sports Drive | freegames | adventure games | star games | java games",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.zopy.in/eco-sports-drive/"
+}
+
+@misc{EcoGame2,
+  key          = "Driver Ed To Go",
+  title        = "Driver Ed To Go - Driver's Education Online - Driver's Ed Game ",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.driveredtogo.com/game/eco-driving.aspx"
+}
+
+@misc{TruckEcoGame,
+  key          = "Truck Fuel Eco",
+  title        = "Truck Fuel Eco Driving on the App Store on iTunes",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "https://itunes.apple.com/gb/app/truck-fuel-eco-driving/id563171974?mt=8"
+}
+
+@misc{Moebius,
+  key          = "Moebius",
+  title        = "Moebius Eco-driving Serious Game",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.seriousfactory.com/en/moebius-by-vulog/"
+}
+
+@misc{EcoSimulator,
+  key          = "Eco Simulator",
+  title        = "ST Software car driving simulator for driver training, assessment and research",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.stsoftware.nl/index.html"
+}
+
+@misc{GreenDino,
+  key          = "Green Dino",
+  title        = "Training --- Green Dino BV English",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.greendino.nl/training-85.html"
+}
+
+@misc{EcoSimulator2,
+  key          = "Eco Friendly Driving Simulator",
+  title        = "Eco Friendly Driving simulator game for exhibitions, education, or just for fun | SP Events",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.spevents.co.uk/our-events/event-selector/exhibition\_stand\_attractions/eco\_driver\_game.html"
+}
+
+@misc{MobileStats,
+  key          = "Mobile Stats",
+  title        = "Infographic: 2013 Mobile Growth Statistics",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.digitalbuzzblog.com/infographic-2013-mobile-growth-statistics/"
+}
+
+@misc{TapJoy,
+  key          = "Tapjoy",
+  title        = "Tapjoy Rewarding Mobile",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "https://www.tapjoy.com/homepage"
+}
+
+@misc{MechTurk,
+  key          = "Amazon Mechanical Turk",
+  title        = "Amazon Mechanical Turk - Welcome",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "https://www.mturk.com/mturk/welcome"
+}
+
+@article{sabrina2013enhanced,
+  title={Enhanced game mode for Eco-driving simulator},
+  author={Sabrina, Beloufa and Fabrice, Cauchard and Benjamin, Vailleau and Jo{\"e}l, Vedrenne and Jean-Michel, Boucheix and Andras, Kemeny and Fr{\'e}d{\'e}ric, M{\'e}rienne},
+  journal={Update},
+  volume={17},
+  pages={09},
+  year={2013}
+}
+
+@misc{FiatEcoGame,
+  key          = "Fiat Eco Drive",
+  title        = "Fiat | eco:Drive",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "http://www.fiat.com/com/PublishingImages/ecodrive-site/en/default.htm"
+}
+
+@misc{EcoTools,
+  key          = "Eco Driving Tools",
+  title        = "Eco Driving Tools - energypedia.info",
+  howpublished = "Website",
+  month        = "March",
+  year         = "2014",
+  url          = "https://energypedia.info/wiki/Eco\_Driving\_Tools"
+}
+
+@INPROCEEDINGS{Brunnberg04theroad,
+    author = {Liselott Brunnberg},
+    title = {The road rager: making use of traffic encounters in a mobile multiplayer game},
+    booktitle = {In MUM 2004: Proceedings of the 3rd international conference on Mobile and ubiquitous
+    multimedia},
+    year = {2004},
+    pages = {33--39},
+    publisher = {ACM Press}
+}
+
+@inproceedings{endres2010youldeco,
+  title={Youldeco-Exploiting the Power of Online Social Networks for Eco-Friendly Driving},
+  author={Endres, Christoph and Miksatko, Jan and Braun, Daniel},
+  booktitle={Adjunct proceedings of the 2nd International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 2010)},
+  pages={5},
+  year={2010}
+}
+@article{barkenbus2010eco,
+  title={Eco-driving: An overlooked climate change initiative},
+  author={Barkenbus, Jack N},
+  journal={Energy Policy},
+  volume={38},
+  number={2},
+  pages={762--769},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@techreport{shaheen2012ecodriving,
+  title={Ecodriving and Carbon Footprinting: Understanding How Public Education Can Reduce Greenhouse Gas Emissions and Fuel Use},
+  author={Shaheen, Susan and Martin, Elliot and Finson, Rachel},
+  institution = {Mineta Transportation Institute},
+  year={2012}
+}
+
+@book{howe2008crowdsourcing,
+  title={Crowdsourcing: How the power of the crowd is driving the future of business},
+  author={Howe, Jeff},
+  year={2008},
+  publisher={Random House}
+}
+
+@inproceedings{vonAhn:2004,
+ author = {von Ahn, Luis and Dabbish, Laura},
+ title = {Labeling Images with a Computer Game},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '04},
+ year = {2004},
+ isbn = {1-58113-702-8},
+ location = {Vienna, Austria},
+ pages = {319--326},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/985692.985733},
+ doi = {10.1145/985692.985733},
+ acmid = {985733},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {World Wide Web, distributed knowledge acquisition, image labeling, online games},
+}
+
+@INPROCEEDINGS{vonAhn:2007,
+author={von Ahn, L. and Ginosar, S. and Kedia, M. and Blum, M.},
+booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing, 2007. ICASSP 2007},
+title={Improving Image Search with PHETCH},
+year={2007},
+month={April},
+volume={4},
+pages={IV-1209-IV-1212},
+keywords={Internet;computer games;content-based retrieval;image retrieval;natural languages;search engines;Phetch multiplayer game;Web page;content based image retrieval;human image annotation;keyword-based image search engines;natural language descriptions;text captions;Computer science;Computer vision;Content based retrieval;Humans;Image retrieval;Information retrieval;Knowledge acquisition;Labeling;Natural languages;Search engines;Accessibility;Distributed knowledge acquisition;Image retrieval;Web-based games},
+doi={10.1109/ICASSP.2007.367293},
+ISSN={1520-6149}
+}
+
+@inproceedings{vonAhn:2006,
+ author = {von Ahn, Luis and Liu, Ruoran and Blum, Manuel},
+ title = {Peekaboom: A Game for Locating Objects in Images},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '06},
+ year = {2006},
+ isbn = {1-59593-372-7},
+ location = {Montr\&\#233;al, Qu\&\#233;bec, Canada},
+ pages = {55--64},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1124772.1124782},
+ doi = {10.1145/1124772.1124782},
+ acmid = {1124782},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {computer vision, distributed knowledge acquisition, object recognition, object segmentation, web-based games},
+}
+
+@inproceedings{steinmayr2011karido,
+  title={Karido: A GWAP for telling artworks apart},
+  author={Steinmayr, Bartholom{\"a}us and Wieser, Christoph and Knei{\ss}l, Fabian and Bry, Fran{\c{c}}ois},
+  booktitle={Computer Games (CGAMES), 2011 16th International Conference on},
+  pages={193--200},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{Law:2009,
+ author = {Law, Edith and von Ahn, Luis},
+ title = {Input-agreement: A New Mechanism for Collecting Data Using Human Computation Games},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '09},
+ year = {2009},
+ isbn = {978-1-60558-246-7},
+ location = {Boston, MA, USA},
+ pages = {1197--1206},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1518701.1518881},
+ doi = {10.1145/1518701.1518881},
+ acmid = {1518881},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {games with a purpose, human computation, tagging},
+}
+
+@inproceedings{vonAhn&Law:2009,
+  author = {Law, Edith and West, Kris and Mandel, Michael I. and Bay, Mert and Downie, J. Stephen},
+  booktitle = {ISMIR},
+  editor = {Hirata, Keiji and Tzanetakis, George and Yoshii, Kazuyoshi},
+  pages = {387-392},
+  publisher = {International Society for Music Information Retrieval},
+  title = {Evaluation of Algorithms Using Games: The Case of Music Tagging.},
+  year = 2009
+}
+
+@inproceedings{Hacker:2009,
+ author = {Hacker, Severin and von Ahn, Luis},
+ title = {Matchin: Eliciting User Preferences with an Online Game},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '09},
+ year = {2009},
+ isbn = {978-1-60558-246-7},
+ location = {Boston, MA, USA},
+ pages = {1207--1216},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1518701.1518882},
+ doi = {10.1145/1518701.1518882},
+ acmid = {1518882},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {human computation, preference elicitation, web games},
+}
+
+@inproceedings{Ho:2009,
+ author = {Ho, Chien-Ju and Chang, Tao-Hsuan and Lee, Jong-Chuan and Hsu, Jane Yung-jen and Chen, Kuan-Ta},
+ title = {KissKissBan: A Competitive Human Computation Game for Image Annotation},
+ booktitle = {Proceedings of the ACM SIGKDD Workshop on Human Computation},
+ series = {HCOMP '09},
+ year = {2009},
+ isbn = {978-1-60558-672-4},
+ location = {Paris, France},
+ pages = {11--14},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/1600150.1600153},
+ doi = {10.1145/1600150.1600153},
+ acmid = {1600153},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Amazon Mechanical Turk, ESP game, games with a purpose, human computation, image annotation},
+}
+
+@inproceedings{Bell:2009,
+ author = {Bell, Marek and Reeves, Stuart and Brown, Barry and Sherwood, Scott and MacMillan, Donny and Ferguson, John and Chalmers, Matthew},
+ title = {EyeSpy: Supporting Navigation Through Play},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '09},
+ year = {2009},
+ isbn = {978-1-60558-246-7},
+ location = {Boston, MA, USA},
+ pages = {123--132},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1518701.1518723},
+ doi = {10.1145/1518701.1518723},
+ acmid = {1518723},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {RF fingerprinting, human computation, mobile multiplayer games, mobile photography, navigation},
+}
+
+@inproceedings{lieberman2007,
+  added-at = {2007-08-13T14:37:29.000+0200},
+  author = {Lieberman, H. and Smith, D.A. and Teeters, A.},
+  biburl = {http://www.bibsonomy.org/bibtex/273a325669a260a92819fbcb65b414a84/mstrohm},
+  booktitle = {In Proceedings of the Workshop on Common Sense and Intelligent User Interfaces held in conjunction with the 2007 International Conference on Intelligent User Interfaces (IUI 2007)},
+  description = {a "human computation" (game-based) approach to collecting common-sense knowledge about goals},
+  interhash = {bd7a1efcc4cc5240fb709632e8d05116},
+  intrahash = {73a325669a260a92819fbcb65b414a84},
+  keywords = {SEMINAL goals knowledge-acquisition},
+  timestamp = {2007-08-13T14:37:29.000+0200},
+  title = {{Common Consensus: a web-based game for collecting commonsense goals}},
+  year = 2007
+}
+
+@inproceedings{vonAhnVerb:2006,
+ author = {von Ahn, Luis and Kedia, Mihir and Blum, Manuel},
+ title = {Verbosity: A Game for Collecting Common-sense Facts},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '06},
+ year = {2006},
+ isbn = {1-59593-372-7},
+ location = {Montr\&\#233;al, Qu\&\#233;bec, Canada},
+ pages = {75--78},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/1124772.1124784},
+ doi = {10.1145/1124772.1124784},
+ acmid = {1124784},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {common-sense reasoning, distributed knowledge acquisition, web-based games},
+}
+
+@article{cooper2010predicting,
+  title={Predicting protein structures with a multiplayer online game},
+  author={Cooper, Seth and Khatib, Firas and Treuille, Adrien and Barbero, Janos and Lee, Jeehyung and Beenen, Michael and Leaver-Fay, Andrew and Baker, David and Popovi{\'c}, Zoran and others},
+  journal={Nature},
+  volume={466},
+  number={7307},
+  pages={756--760},
+  year={2010},
+  publisher={Nature Publishing Group}
+}
+
+@INPROCEEDINGS{Violi:2011,
+author={Violi, N. and Golbeck, J. and Kan-Leung Cheng and Kuter, U.},
+booktitle={Privacy, security, risk and trust (passat),
+          2011 IEEE Third International Conference on Social Computing (Socialcom)},
+title={Caretaker: A Social Game for Studying Trust Dynamics},
+year={2011},
+month={Oct},
+pages={451-456},
+keywords={computer games;decision making;socio-economic effects;trusted computing;data analysis;decision making;economic transaction;game administration;in-game chat system;social game;socio-economic interactions;trust dynamics;Biological system modeling;Economics;Encoding;Games;History;Resource management;Testing;dynamic trust;games;social games;social strategy;trust},
+doi={10.1109/PASSAT/SocialCom.2011.109}
+}
+
+@article{Lease:2012,
+ author = {Lease, Matthew and Yilmaz, Emine},
+ title = {Crowdsourcing for Information Retrieval},
+ journal = {SIGIR Forum},
+ volume = {45},
+ number = {2},
+ month = jan,
+ year = {2012},
+ issn = {0163-5840},
+ pages = {66--75},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2093346.2093356},
+ doi = {10.1145/2093346.2093356},
+ acmid = {2093356},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@book{schell2008,
+  title={The Art of Game Design: A book of lenses},
+  author={Schell, Jesse},
+  year={2008},
+  publisher={CRC Press}
+}
+
+@inproceedings{MadrugaFilho:2012:PED:2212776.2223767,
+ author = {Madruga, Marconi and Prendinger, Helmut and Tilma, Todd and Lindner, Martin and Santos, Edgar and Nakasone, Arturo},
+ title = {Practicing Eco-safe Driving at Scale},
+ booktitle = {CHI '12 Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '12},
+ year = {2012},
+ isbn = {978-1-4503-1016-1},
+ location = {Austin, Texas, USA},
+ pages = {2147--2152},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/2212776.2223767},
+ doi = {10.1145/2212776.2223767},
+ acmid = {2223767},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {eco-safe driving education, online virtual worlds},
+}
+
+@article{prendingeroliveira2014,
+ author = {Prendinger, Helmut and Oliveira, Jo{\~a}o and Catarino, Jo{\~a}o and Madruga, Marconi
+           and Prada, Rui},
+ title = {{iCO$_2$}: a networked game for collecting large-scale eco-driving behavior data},
+ journal = {IEEE Internet Computing},
+ volume = 18,
+ number = 3,
+ pages = {28--35},
+ year = 2014
+ }
+
+@article{Prendinger+others.2013,
+ author = {Prendinger, Helmut and Gajananan, Kugamoorthy and Zaki, Ahmed Bayoumy and
+          Fares, Ahmed and Molenaar, Reinaert and Urbano, Daniel and Lint, Hans van and
+          Gomaa, Walid},
+ title = {Tokyo Virtual Living Lab: Designing Smart Cities Based on the 3D Internet},
+ journal = {IEEE Internet Computing},
+ volume = 17,
+ number = 6,
+ pages = {30--38},
+ year = 2013
+ }
+
+@article{Prendinger+others.2014,
+ author = {Prendinger, Helmut and Miska, Marc and Gajananan, Kugamoorthy and Nantes, Alfredo},
+ title = {A Cyber-Physical System Simulator for Risk-Free Transport Studies},
+ journal = {Computer-Aided Civil and Infrastructure Engineering},
+ volume = 29,
+ number = 7,
+ pages = {480--495},
+ year = 2014
+ }
+
+@article{Gajananan+others.2013,
+ author = {Gajananan, Kugamoorthy and Nantes, Alfredo and Miska, Marc and
+            Nakasone, Arturo and Prendinger, Helmut},
+ title = {An Experimental Space for Conducting Controlled Driving Behavior Studies based
+             on a Multiuser Networked 3D Virtual Environment and the Scenario Markup Language},
+ journal = {IEEE Transactions on Human-Machine Systems},
+ volume = 43,
+ number = 4,
+ pages = {345--358},
+ year = 2013
+ }
+
+@article{Henze2013,
+ author = {Henze, Niels and Shirazi, Alireza Sahami and Schmidt, Albrecht and Pielot, Martin and Michahelles, Florian},
+ title = {Empirical Research through Ubiquitous Data Collection},
+ journal = {IEEE Computer},
+ pages = {74--76},
+ year = 2013
+ }

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433229186393.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "484C734A",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "clus4table",
+        "contentUrl" : "content?title=clus4table&file=a2e9193ceb584a68ad24712ccb083900.htm",
+        "displayedObservations" : "4",
+        "displayedVariables" : 22,
+        "totalObservations" : "4",
+        "variables" : "22"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

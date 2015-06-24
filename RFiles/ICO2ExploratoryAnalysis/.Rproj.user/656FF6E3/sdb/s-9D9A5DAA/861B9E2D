@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433412744426.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "861B9E2D",
+    "lastKnownWriteTime" : 30399714103066735,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "mycsvfile_asia",
+        "contentUrl" : "content?title=mycsvfile_asia&file=b3e6705604554a06867b47992390fb7e.htm",
+        "displayedObservations" : 52,
+        "displayedVariables" : 2,
+        "totalObservations" : 52,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

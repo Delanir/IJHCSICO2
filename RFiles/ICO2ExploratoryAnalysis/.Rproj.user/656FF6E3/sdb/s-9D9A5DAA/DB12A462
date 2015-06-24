@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433412598580.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DB12A462",
+    "lastKnownWriteTime" : 1433412553,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "table_europe",
+        "contentUrl" : "content?title=table_europe&file=04c749b88f844390aaa59827780f59ad.htm",
+        "displayedObservations" : "22",
+        "displayedVariables" : 6,
+        "totalObservations" : "22",
+        "variables" : "26"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

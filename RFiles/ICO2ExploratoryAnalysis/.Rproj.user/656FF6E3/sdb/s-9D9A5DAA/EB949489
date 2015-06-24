@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433228649088.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EB949489",
+    "lastKnownWriteTime" : 28429470871519349,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "clus3table",
+        "contentUrl" : "content?title=clus3table&file=9b235a4c59004046bc7f076ce26cddad.htm",
+        "displayedObservations" : "3",
+        "displayedVariables" : 22,
+        "totalObservations" : "3",
+        "variables" : "22"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

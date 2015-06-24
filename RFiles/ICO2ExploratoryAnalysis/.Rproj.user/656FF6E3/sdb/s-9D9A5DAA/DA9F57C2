@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1433412733424.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DA9F57C2",
+    "lastKnownWriteTime" : 5777959337079615284,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "mycsvfile",
+        "contentUrl" : "content?title=mycsvfile&file=3e5dcbb9a58a42078ef00736ec5a445b.htm",
+        "displayedObservations" : "52",
+        "displayedVariables" : 2,
+        "totalObservations" : "52",
+        "variables" : "2"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1434087473224.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A66E53B",
+    "lastKnownWriteTime" : 4123082980667171428,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "ccc4wopauses",
+        "contentUrl" : "content?title=ccc4wopauses&file=5d90ee2c711540e69791ad3cd82d7c73.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 24,
+        "totalObservations" : 1039,
+        "variables" : 24
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,183 @@
+---
+title: "DriverTypeColour"
+author: "DanielaFontes"
+date: "Thursday, April 23, 2015"
+output: html_document
+---
+```{r,echo=FALSE}
+#load("C:/Users/PrendingerLab/Desktop/ColourCorrelationAnalysis/data.RData")
+#load("C:/Users/PrendingerLab/Desktop/ColourCorrelationAnalysis/data1.RData")
+load("C:/Users/PrendingerLab/Desktop/ColourCorrelationAnalysis/data_29_4.RData")
+table_asia <- merge(x = drivers_asia, y = mycsvfile_asia, by = "driver_id")
+table_europe <- merge(x = drivers_europe, y = mycsvfile, by = "driver_id")
+table_usa <-merge(x = mycsvfile_us, y = drivers_usa, by = "driver_id")
+
+```
+
+```{r, echo=FALSE}
+table_europe$driver_type_ordered <- ordered(table_europe$driver_type, levels = c("Eco", "Gentle", "Normal", "Crazy"))
+table_asia$driver_type_ordered <- ordered(table_asia$driver_type, levels = c("Eco", "Gentle", "Normal", "Crazy"))
+table_usa$driver_type_ordered <- ordered(table_usa$driver_type, levels = c("Eco", "Gentle", "Normal", "Crazy"))
+
+
+table_asia$is_yellow <- ifelse(table_asia$colour == "Yellow", 1, 0)
+table_usa$is_yellow <- ifelse(table_usa$colour == "Yellow", 1, 0)
+table_europe$is_yellow <- ifelse(table_europe$colour == "Yellow", 1, 0)
+
+table_asia$is_red <- ifelse(table_asia$colour == "Red", 1, 0)
+table_usa$is_red <- ifelse(table_usa$colour == "Red", 1, 0)
+table_europe$is_red <- ifelse(table_europe$colour == "Red", 1, 0)
+
+table_asia$is_blue <- ifelse(table_asia$colour == "Blue", 1, 0)
+table_usa$is_blue<- ifelse(table_usa$colour == "Blue", 1, 0)
+table_europe$is_blue <- ifelse(table_europe$colour == "Blue", 1, 0)
+
+table_asia$is_green <- ifelse(table_asia$colour == "Green", 1, 0)
+table_usa$is_green<- ifelse(table_usa$colour == "Green", 1, 0)
+table_europe$is_green <- ifelse(table_europe$colour == "Green", 1, 0)
+
+table_asia$is_gray <- ifelse(table_asia$colour == "Gray", 1, 0)
+table_usa$is_gray<- ifelse(table_usa$colour == "Gray", 1, 0)
+table_europe$is_gray <- ifelse(table_europe$colour == "Gray", 1, 0)
+```
+
+iCO2 March Campaign 2014
+
+
+
+#Europe data
+
+```{r,echo=FALSE}
+summary(table_europe)
+#plot(table_europe$colour)
+plot(table_europe$driver_type_ordered, main = "Europe: Frequency Distribution of Driver Types",xlab="Driver Types", ylab="Frequency")
+```
+
+##Joint Probability distribution
+
+```{r,echo=FALSE}
+m<-with(table_europe,prop.table(table(colour,driver_type)))
+m
+
+```
+
+#Asia data
+
+```{r, echo=FALSE}
+summary(table_asia)
+plot(table_asia$driver_type_ordered, main = "Asia: Frequency Distribution of Driver Types",xlab="Driver Types", ylab="Frequency")
+```
+
+##Joint Probability distribution
+
+```{r,echo=FALSE}
+m<-with(table_asia,prop.table(table(colour,driver_type)))
+m
+
+```
+#USA data
+
+```{r, echo=FALSE}
+summary(table_usa)
+plot(table_usa$driver_type_ordered, main = "USA: Frequency Distribution of Driver Types",xlab="Driver Types", ylab="Frequency")
+plot(table_usa$colour)
+```
+
+##Joint Probability distribution
+
+```{r,echo=FALSE}
+m<-with(table_usa,prop.table(table(colour,driver_type_ordered)))
+m
+
+```
+
+
+
+#Correlation between painting car <span style="color:red">"Red"</span> and being "Eco-unfriendly".
+
+"Eco-unfriendliness is characterized by the levels/ranks "Eco" < "Gentle" < "Normal" < "Crazy".
+We are using Kendall correlation coefficient because we are interested in the relationship between the ranks of the variables.
+
+
+
+```{r, comment="Europe data set",echo=FALSE}
+cor(as.numeric(table_europe$driver_type_ordered),table_europe$is_red, method="kendall")
+```
+```{r, comment="US data set",echo=FALSE}
+cor(as.numeric(table_usa$driver_type_ordered),table_usa$is_red, method="kendall")
+```
+```{r, comment="Asia data set",echo=FALSE}
+cor(as.numeric(table_asia$driver_type_ordered),table_asia$is_red, method="kendall")
+```
+
+Although the correlation coefficients are small (as we can observe by the joint probability tables, the probability of choosing a red car is relatively small). We can observe that in the US, there seems to be an association between more Eco Friendly people choosing Red cars, which is completely opposite to the association between the colour “Red”, and a driving style with higher velocities and abrupt acceleration, found on the Asia data set and the Europe data set. It is also worth mentioning that in the Europe data set the association between the “Eco-unfriendly” driving behaviour and the colour “Red” is the strongest.
+
+#Correlation between painting car <span style="color:blue">"Blue"</span> and being "Eco-unfriendly".
+
+"Eco-unfriendliness is characterized by the levels/ranks "Eco" < "Gentle" < "Normal" < "Crazy".
+We are using Kendall correlation coefficient because we are interested in the relationship between the ranks of the variables.
+
+
+
+```{r, comment="Europe data set",echo=FALSE}
+cor(as.numeric(table_europe$driver_type_ordered),table_europe$is_blue, method="kendall")
+```
+```{r, comment="US data set",echo=FALSE}
+cor(as.numeric(table_usa$driver_type_ordered),table_usa$is_blue, method="kendall")
+```
+```{r, comment="Asia data set",echo=FALSE}
+cor(as.numeric(table_asia$driver_type_ordered),table_asia$is_blue, method="kendall")
+```
+
+
+#Correlation between painting car <span style="color:yellow">"Yellow"</span> and being "Eco-unfriendly".
+
+"Eco-unfriendliness is characterized by the levels/ranks "Eco" < "Gentle" < "Normal" < "Crazy".
+We are using Kendall correlation coefficient because we are interested in the relationship between the ranks of the variables.
+
+
+
+```{r, comment="Europe data set",echo=FALSE}
+cor(as.numeric(table_europe$driver_type_ordered),table_europe$is_yellow, method="kendall")
+```
+```{r, comment="US data set",echo=FALSE}
+cor(as.numeric(table_usa$driver_type_ordered),table_usa$is_yellow, method="kendall")
+```
+```{r, comment="Asia data set",echo=FALSE}
+cor(as.numeric(table_asia$driver_type_ordered),table_asia$is_yellow, method="kendall")
+```
+
+
+#Correlation between painting car <span style="color:green">"Green"</span> and being "Eco-unfriendly".
+
+"Eco-unfriendliness is characterized by the levels/ranks "Eco" < "Gentle" < "Normal" < "Crazy".
+We are using Kendall correlation coefficient because we are interested in the relationship between the ranks of the variables.
+
+
+
+```{r, comment="Europe data set",echo=FALSE}
+cor(as.numeric(table_europe$driver_type_ordered),table_europe$is_green, method="kendall")
+```
+```{r, comment="US data set",echo=FALSE}
+cor(as.numeric(table_usa$driver_type_ordered),table_usa$is_green, method="kendall")
+```
+```{r, comment="Asia data set",echo=FALSE}
+cor(as.numeric(table_asia$driver_type_ordered),table_asia$is_green, method="kendall")
+```
+
+#Correlation between painting car <span style="color:gray">"Gray"</span> and being "Eco-unfriendly".
+
+"Eco-unfriendliness is characterized by the levels/ranks "Eco" < "Gentle" < "Normal" < "Crazy".
+We are using Kendall correlation coefficient because we are interested in the relationship between the ranks of the variables.
+
+
+
+```{r, comment="Europe data set",echo=FALSE}
+cor(as.numeric(table_europe$driver_type_ordered),table_europe$is_gray, method="kendall")
+```
+```{r, comment="US data set",echo=FALSE}
+cor(as.numeric(table_usa$driver_type_ordered),table_usa$is_gray, method="kendall")
+```
+```{r, comment="Asia data set",echo=FALSE}
+cor(as.numeric(table_asia$driver_type_ordered),table_asia$is_gray, method="kendall")
+```
