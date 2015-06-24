@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.4)  24 JUN 2015 15:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  24 JUN 2015 17:36
 entering extended mode
 **ijhcs-2014.tex
-("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.tex"
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -95,7 +95,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.spl")
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.spl)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
@@ -378,7 +378,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen118
 \SOUL@ulht=\dimen119
 )
-("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.aux")
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
@@ -492,8 +492,8 @@ LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
 
-("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.out")
-("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.out")
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.out)
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.out)
 \@outlinefile=\write4
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
@@ -548,108 +548,111 @@ LaTeX Warning: there is no bold Symbol font on input line 97.
 [6] [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 223.
+(hyperref)                removing `math shift' on input line 245.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 223.
+(hyperref)                removing `subscript' on input line 245.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 223.
+(hyperref)                removing `math shift' on input line 245.
 
-[8] <ijhcs14-img/iCO2_driving.png, id=303, 1253.28226pt x 786.5385pt>
+[8] <ijhcs14-img/iCO2_driving.png, id=301, 1253.28226pt x 786.5385pt>
 File: ijhcs14-img/iCO2_driving.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_driving.png>
-Package pdftex.def Info: ijhcs14-img/iCO2_driving.png used on input line 233.
+Package pdftex.def Info: ijhcs14-img/iCO2_driving.png used on input line 255.
 (pdftex.def)             Requested size: 418.96547pt x 262.93095pt.
- [9 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/iCO2_driving.png>]
-<ijhcs14-img/iCO2_garage.png, id=309, 858.20625pt x 534.19576pt>
+ [9 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_driving
+.png>]
+<ijhcs14-img/iCO2_garage.png, id=311, 858.20625pt x 534.19576pt>
 File: ijhcs14-img/iCO2_garage.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_garage.png>
-Package pdftex.def Info: ijhcs14-img/iCO2_garage.png used on input line 255.
+Package pdftex.def Info: ijhcs14-img/iCO2_garage.png used on input line 277.
 (pdftex.def)             Requested size: 352.8155pt x 219.60857pt.
  [10]
-<ijhcs14-img/iCO2_navigator.png, id=317, 1253.28226pt x 782.925pt>
+<ijhcs14-img/iCO2_navigator.png, id=319, 1253.28226pt x 782.925pt>
 File: ijhcs14-img/iCO2_navigator.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_navigator.png>
-Package pdftex.def Info: ijhcs14-img/iCO2_navigator.png used on input line 268.
+Package pdftex.def Info: ijhcs14-img/iCO2_navigator.png used on input line 290.
 
 (pdftex.def)             Requested size: 418.96547pt x 261.723pt.
- [11 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/iCO2_garage.png>] [12 <C:
-/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/iCO2_navigator.png>]
-<ijhcs14-img/iCO2_generalarchitecture.png, id=336, 469.2732pt x 302.0886pt>
+ [11 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_garage
+.png>] [12 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_
+navigator.png>]
+<ijhcs14-img/iCO2_generalarchitecture.png, id=337, 469.2732pt x 302.0886pt>
 File: ijhcs14-img/iCO2_generalarchitecture.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_generalarchitecture.png>
 Package pdftex.def Info: ijhcs14-img/iCO2_generalarchitecture.png used on input
- line 289.
+ line 311.
 (pdftex.def)             Requested size: 264.61331pt x 170.34848pt.
- [13 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/iCO2_generalarchitecture.
-png>]
+ [13 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_genera
+larchitecture.png>]
 
-LaTeX Warning: Reference `T:drivingdata' on page 14 undefined on input line 302
+LaTeX Warning: Reference `T:drivingdata' on page 14 undefined on input line 324
 .
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 351.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 329.
+(hyperref)                removing `subscript' on input line 351.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 329.
+(hyperref)                removing `math shift' on input line 351.
 
-[14] <ijhcs14-img/engagement.png, id=366, 626.34pt x 231.86626pt>
+[14] <ijhcs14-img/engagement.png, id=364, 626.34pt x 231.86626pt>
 File: ijhcs14-img/engagement.png Graphic file (type png)
 
 <use ijhcs14-img/engagement.png>
-Package pdftex.def Info: ijhcs14-img/engagement.png used on input line 344.
+Package pdftex.def Info: ijhcs14-img/engagement.png used on input line 366.
 (pdftex.def)             Requested size: 418.96547pt x 155.10191pt.
 
-<ijhcs14-img/completion.png, id=367, 619.113pt x 196.93575pt>
+<ijhcs14-img/completion.png, id=365, 619.113pt x 196.93575pt>
 File: ijhcs14-img/completion.png Graphic file (type png)
 
 <use ijhcs14-img/completion.png>
-Package pdftex.def Info: ijhcs14-img/completion.png used on input line 351.
+Package pdftex.def Info: ijhcs14-img/completion.png used on input line 373.
 (pdftex.def)             Requested size: 418.96547pt x 133.27144pt.
 
-<ijhcs14-img/4diagrams2.png, id=368, 591.4095pt x 346.896pt>
+<ijhcs14-img/4diagrams2.png, id=366, 591.4095pt x 346.896pt>
 File: ijhcs14-img/4diagrams2.png Graphic file (type png)
 
 <use ijhcs14-img/4diagrams2.png>
-Package pdftex.def Info: ijhcs14-img/4diagrams2.png used on input line 359.
+Package pdftex.def Info: ijhcs14-img/4diagrams2.png used on input line 381.
 (pdftex.def)             Requested size: 418.96547pt x 245.74738pt.
 
-<ijhcs14-img/time.png, id=369, 414.348pt x 235.47975pt>
+<ijhcs14-img/time.png, id=367, 414.348pt x 235.47975pt>
 File: ijhcs14-img/time.png Graphic file (type png)
 
 <use ijhcs14-img/time.png>
-Package pdftex.def Info: ijhcs14-img/time.png used on input line 366.
+Package pdftex.def Info: ijhcs14-img/time.png used on input line 388.
 (pdftex.def)             Requested size: 352.8155pt x 200.51085pt.
- [15 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/engagement.png> <C:/Users
-/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/completion.png>] [16 <C:/Users/m4600-3/
-Dropbox/IJHCS 2014/ijhcs14-img/4diagrams2.png>]
-[17 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/time.png>] [18]
+ [15 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/engagement.
+png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/completion.
+png>] [16 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/4diagr
+ams2.png>] [17 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/t
+ime.png>] [18]
 <ijhcs14-img/kmeansclustering.png, id=415, 541.27219pt x 303.38344pt>
 File: ijhcs14-img/kmeansclustering.png Graphic file (type png)
 
 <use ijhcs14-img/kmeansclustering.png>
-Package pdftex.def Info: ijhcs14-img/kmeansclustering.png used on input line 43
-9.
+Package pdftex.def Info: ijhcs14-img/kmeansclustering.png used on input line 46
+1.
 (pdftex.def)             Requested size: 441.01772pt x 247.19745pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/kmeansclustering.png (PNG 
-copy)>]
+[19 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/kmeanscluste
+ring.png (PNG copy)>] [20]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
@@ -691,78 +694,50 @@ Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
- [0]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.540 
-       [1]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.577 
-       [2]
-<ijhcs14-img/cluster_activities_driver_types.png, id=445, 502.87875pt x 268.754
+ [21] [22]
+<ijhcs14-img/cluster_activities_driver_types.png, id=449, 502.87875pt x 268.754
 06pt>
 File: ijhcs14-img/cluster_activities_driver_types.png Graphic file (type png)
  <use ijhcs14-img/cluster_activities_driver_types.png>
 Package pdftex.def Info: ijhcs14-img/cluster_activities_driver_types.png used o
-n input line 603.
+n input line 625.
 (pdftex.def)             Requested size: 352.8155pt x 188.55304pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.614 
-       [3 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/cluster_activities_d
-river_types.png (PNG copy)>]
-<ijhcs14-img/Evolution.pdf, id=452, 505.89pt x 361.35pt>
+ [23 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/cluster_act
+ivities_driver_types.png (PNG copy)>] <ijhcs14-img/Evolution.pdf, id=457, 505.8
+9pt x 361.35pt>
 File: ijhcs14-img/Evolution.pdf Graphic file (type pdf)
 
 <use ijhcs14-img/Evolution.pdf>
-Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 620.
+Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 642.
 (pdftex.def)             Requested size: 569.10603pt x 512.20398pt.
 
-Overfull \hbox (128.08832pt too wide) in paragraph at lines 620--622
+Overfull \hbox (128.08832pt too wide) in paragraph at lines 642--644
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 626.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 648.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 626.
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.629 
-       [4]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 648.
+ [24]
 
-LaTeX Warning: Text page 5 contains only floats.
+LaTeX Warning: Text page 25 contains only floats.
 
 
 Overfull \vbox (5.95552pt too high) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.629 
-       [5 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/Evolution.pdf>]
-Overfull \hbox (11.29999pt too wide) in paragraph at lines 638--639
+
+[25 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Evolution.pd
+f>]
+Overfull \hbox (11.29999pt too wide) in paragraph at lines 660--661
 []\OT1/ptm/m/n/12 We have de-scribed our newest ver-sion of iCO$[]$ that ex-ten
 ds the pre-vi-ous ver-sion ([]Prendinger
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.645 
-       [6]
+[26]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -771,120 +746,78 @@ Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
- ("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.bbl"pdfTeX warning (ext4): de
-stination with the same identifier (name{page.7}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.11 \bibitem[{Barkenbus(2010)}]{barkenbus2010eco}
-                                                   [7]
+ (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.bbl [27]
 Underfull \hbox (badness 10000) in paragraph at lines 50--53
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . spevents . co . uk / ou
 r -[] events / event -[] selector / exhibition _$
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.58 
-      [8]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . fiat . com / com / Publ
 ishingImages / ecodrive -[] site / en /$
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 ...item[{Howe(2008)}]{howe2008crowdsourcing}
-                                                   [9]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . digitalbuzzblog . com /
  infographic -[] 2013 -[] mobile -[] growth -[]$
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.148   and Nantes}]{Prendinger+others.2014}
-                                             [10]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 187--190
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 https : / / itunes . apple . com / gb / 
 app / truck -[] fuel -[] eco -[] driving /$
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.200 
-       [11])
-<ijhcs14-img/playsessions_europe.png, id=519, 858.20625pt x 546.04pt>
+[31]) <ijhcs14-img/playsessions_europe.png, id=532, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_europe.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_europe.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_europe.png used on input line
- 829.
+ 851.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_asia.png, id=520, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_asia.png, id=533, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_asia.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_asia.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_asia.png used on input line 8
-36.
+58.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_america.png, id=521, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_america.png, id=534, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_america.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_america.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_america.png used on input lin
-e 843.
+e 865.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.902 \end{document}
-                     [12]pdfTeX warning (ext4): destination with the same ident
-ifier (name{page.13}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.902 \end{document}
-                     [13 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/plays
-essions_europe.png> <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/playsessio
-ns_asia.png>]pdfTeX warning (ext4): destination with the same identifier (name{
-page.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.902 \end{document}
-                     [14 <C:/Users/m4600-3/Dropbox/IJHCS 2014/ijhcs14-img/plays
-essions_america.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
- ("C:\Users\m4600-3\Dropbox\IJHCS 2014\ijhcs-2014.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 924.
+ [32] [33 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playse
+ssions_europe.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-i
+mg/playsessions_asia.png>] [34 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSIC
+O2/ijhcs14-img/playsessions_america.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 924.
+ (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 924.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 924.
 Package rerunfilecheck Info: File `ijhcs-2014.out' has not changed.
 (rerunfilecheck)             Checksum: 4E9D4B20D0E461A3A8785C884B1CB353;1437.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 902.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 924.
  ) 
 Here is how much of TeX's memory you used:
- 8135 strings out of 493921
- 114387 string characters out of 3144871
- 256083 words of memory out of 3000000
+ 8149 strings out of 493921
+ 114696 string characters out of 3144853
+ 241164 words of memory out of 3000000
  11145 multiletter control sequences out of 15000+200000
  48113 words of font info for 109 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,34p,1603b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,34p,1603b,620s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
@@ -895,9 +828,9 @@ eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on ijhcs-2014.pdf (34 pages, 5332921 bytes).
+Output written on ijhcs-2014.pdf (34 pages, 5341184 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
  239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

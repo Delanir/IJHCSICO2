@@ -103,7 +103,11 @@ Data collection; data analysis; driving behavior; Human Computation system; Game
 Our world today is tightly interconnected by the Internet, which allows users from almost anywhere to access information anytime in an affordable and immediate manner. For scientists, this situation opens hitherto unknown opportunities for experimental testing of novel online applications. While in principle vast populations can  be reached quickly and effortlessly, motivating users to participate in social experiments is a big challenge. It is important to provide an adequate incentive other than money to the users, so that they do not have any motivation to cheat \citep{Quinn}.
 As a solution, Games With a Purpose (GWAP) have been proposed \citep{vonAhn2006Games}. GWAP is a field of Human Computation \citep{Yuen.2009,Krause+Smeddinck.2011} that seeks to motivate users, such as annotators of pictures or testers of applications, through enjoyment rather than any monetary incentive.
 
-The recent rise of mobile devices---such as smart phones, tablet computers or handheld game consoles---has rendered traditional lab studies impractical. Researchers have suggested a ten-step-program to conduct large-scale studies with mobile applications in order to obtain valuable data that cannot be collected in a lab setting:
+The recent rise of mobile devices---such as smart phones, tablet computers or handheld game consoles---
+%has rendered traditional lab studies impractical. 
+\hlc[green]{
+has opened up new opportunities to conduct experiments beyond laboratory studies. This ubiquitous computing makes it possible to reach large numbers of users, however it also makes it more difficult to standardize test conditions, and control the environment.}
+Researchers have suggested a ten-step-program to conduct large-scale studies with mobile applications in order to obtain valuable data that cannot be collected in a lab setting:
 \begin{inparaenum}[\itshape 1\upshape)]\item Clearly identify the research goals; \item Select a study method; \item Devise an incentive mechanism;  \item Choose the target platform(s); \item Design and develop the mobile app; \item Prepare data collection; \item Implement a scheme to obtain informed consent from users; \item Distribute and promote the app; \item Continuously monitor data collection for a designated time period; \item Filter and analyze data to answer the research question \end{inparaenum} \citep{Henze2013}.
 
 In this paper, we broadly adhere to these steps and present iCO$_2$, a massively multiplayer online (MMO) driving game designed as a mobile application that allows players to practice eco-friendly driving. Notably, iCO$_2$ is a platform for collecting driving behavior data and in-game decision data from users. It can be accessed as an app on ``Google play''.\footnote{https://play.google.com/store/apps/details?id=net.globallabproject.ico2\&hl=en}
@@ -164,6 +168,7 @@ We have observed that applications that allow users to practice eco-friendly dri
 While there are MMO driving games, none of them allows users to keep track of the effect of their driving behavior on their fuel consumption and gas emissions. And while there are applications, even games, which incorporate the aforementioned features, none of them are MMO driving games.
 
 \subsection{Crowdsourcing and Games with a Purpose}
+\label{subsec:csandgwap}
 
 We have defined our project as a Human Computation system \citep{Yuen.2009,Krause+Smeddinck.2011}, and not as a crowdsourcing system. \cite{Quinn} explain the difference comprehensively --- the most important distinction is that crowdsourcing involves the entire problem being tackled by a crowd of humans \citep{howe2008crowdsourcing}, while Human Computation involves only part of a problem being tackled by a crowd of humans.
 
@@ -350,6 +355,19 @@ Slope_{Acceleration}(i) = \frac{Acceleration(i) - Acceleration(j)}{i-j}
 
 In March 2014 we run a campaign with iCO$_2$ for one weeks and collected data of 3184 mobile users. The cost per user is less than one US dollar.
 The results of our data analysis will be discussed in the following sections.
+
+\subsection{Implementing the Campaign}
+\label{subsec:campaign}
+
+In order to deploy a large-scale study we aimed to follow a ten-step framework proposed in the literature. These steps are \begin{inparaenum}[\itshape 1\upshape)]\item Clearly identify the research goals; \item Select a study method; \item Devise an incentive mechanism;  \item Choose the target platform(s); \item Design and develop the mobile app; \item Prepare data collection; \item Implement a scheme to obtain informed consent from users; \item Distribute and promote the app; \item Continuously monitor data collection for a designated time period; \item Filter and analyze data to answer the research question \end{inparaenum} \citep{Henze2013}.
+
+The first step refereed has to do with identifying clearly research goals. While building a platform that would allow for the collection of multiple sorts of data, ranging from in-game position to actions taken, our primary research goal was to understand whether our game succeeds in compelling the players to train their eco-friendly driving.
+The way we study eco-friendly driving, has to do with the rate of change of acceleration. By controlling their acceleration and braking the user can achieve a smooth driving style, which saves fuel.
+As mentioned previously in Section \ref{subsec:csandgwap}, we use Tapjoy to attract a large amount of users in a short period of time.
+The target platform chosen for this study was android, due to its ubiquity, and way we obtain consent from the users by prompting a request for them to log in with their Facebook accounts. 
+
+
+
 
 \subsection{Usage Statistics}
 \label{subsec:usage_stats}
