@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  25 JUN 2015 17:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  25 JUN 2015 17:18
 entering extended mode
 **ijhcs-2014.tex
 (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.tex
@@ -736,13 +736,13 @@ Overfull \vbox (5.95552pt too high) has occurred while \output is active []
 
 
 [26 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Evolution.pd
-f>]
+f>] [27]
 Overfull \hbox (11.29999pt too wide) in paragraph at lines 684--685
 []\OT1/ptm/m/n/12 We have de-scribed our newest ver-sion of iCO$[]$ that ex-ten
 ds the pre-vi-ous ver-sion ([]Prendinger
  []
 
-[27]
+[28]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -751,31 +751,31 @@ Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
- [28] (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.bbl
+ (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.bbl [29]
 Underfull \hbox (badness 10000) in paragraph at lines 50--53
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . spevents . co . uk / ou
 r -[] events / event -[] selector / exhibition _$
  []
 
-[29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . fiat . com / com / Publ
 ishingImages / ecodrive -[] site / en /$
  []
 
-[30]
+[30] [31]
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . digitalbuzzblog . com /
  infographic -[] 2013 -[] mobile -[] growth -[]$
  []
 
-[31]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 187--190
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 https : / / itunes . apple . com / gb / 
 app / truck -[] fuel -[] eco -[] driving /$
  []
 
-[32]) <ijhcs14-img/playsessions_europe.png, id=557, 858.20625pt x 546.04pt>
+[33]) <ijhcs14-img/playsessions_europe.png, id=561, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_europe.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_europe.png>
@@ -783,7 +783,7 @@ Package pdftex.def Info: ijhcs14-img/playsessions_europe.png used on input line
  875.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_asia.png, id=558, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_asia.png, id=562, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_asia.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_asia.png>
@@ -791,7 +791,7 @@ Package pdftex.def Info: ijhcs14-img/playsessions_asia.png used on input line 8
 82.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_america.png, id=559, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_america.png, id=563, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_america.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_america.png>
@@ -799,12 +799,13 @@ Package pdftex.def Info: ijhcs14-img/playsessions_america.png used on input lin
 e 889.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 948.
- [33] [34 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playse
-ssions_europe.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-i
-mg/playsessions_asia.png>] [35 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSIC
-O2/ijhcs14-img/playsessions_america.png>]
+ [34 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playsession
+s_europe.png>] [35 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-i
+mg/playsessions_asia.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ij
+hcs14-img/playsessions_america.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 948.
- (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
+
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 948.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 948.
 Package rerunfilecheck Info: File `ijhcs-2014.out' has not changed.
@@ -816,11 +817,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 948.
  ) 
 Here is how much of TeX's memory you used:
- 8168 strings out of 493921
- 114869 string characters out of 3144853
- 256518 words of memory out of 3000000
+ 8169 strings out of 493921
+ 114875 string characters out of 3144853
+ 257521 words of memory out of 3000000
  11149 multiletter control sequences out of 15000+200000
- 49299 words of font info for 111 fonts, out of 3000000 for 9000
+ 49658 words of font info for 112 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,10n,34p,1603b,620s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -833,7 +834,7 @@ eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on ijhcs-2014.pdf (35 pages, 5349303 bytes).
+Output written on ijhcs-2014.pdf (35 pages, 5350281 bytes).
 PDF statistics:
  639 PDF objects out of 1000 (max. 8388607)
  152 named destinations out of 1000 (max. 500000)
