@@ -478,7 +478,8 @@ The SSE can also be used to determine the best number of clusters. We analyzed $
 \begin{figure}[htb]
 	\begin{center}
 		\includegraphics[width=1\linewidth]{ijhcs14-img/kmeansclustering}
-		\caption{Clustering of users' driving behavior based on the rate of change of acceleration.\label{fig:accel-ranges}}
+		\caption{Clustering of users' driving behavior based on the rate of change of acceleration. In order to analyze the driving behavior we are interested in the relative frequency of smooth acceleration. We consider smooth acceleration the interval $[-10,10)$. We label the cluster 1, ``Crazy`` Driver due to the spread out distribution of the rate of acceleration, which means the users in this cluster performed abrupt brakes, acceleration, and collisions with the world.
+			Cluster 2 and 4 on the other hand have a high prevalence of smooth acceleration, even though the cluster 2 focus primarily on smooth braking, and cluster 4 on smooth acceletating, hence the group names ``Eco-Braker`` and ``Eco-Accelerator``. Finaly we have a group of players that perform mostly smooth accelerations but still present a considerable amount of abrupt acceleration changes, we label this profile as Normal Drivers. \label{fig:accel-ranges}}
 	\end{center}
 \end{figure}
 
@@ -676,7 +677,9 @@ Later should be deleted. }
 
 \section{Conclusions} \label{sec:conclusions}
 
-In this paper, we describe iCO$_2$, a game-like simulation platform for collecting large-scale driving behavior data and other data on users' in-game activities, such as upgrading the user's car. As a research tool, iCO$_2$ can be seen as a Human Computation system where humans provide driving behavior. This allows us to better understand how users interact with a game that motivates them to drive eco-friendly. In this way, our system is related to other activities aimed at attracting users' work, such as Games with a Purpose or crowdsourcing.
+In this paper, we describe iCO$_2$, a game-like simulation platform for collecting large-scale driving behavior data (and other data on users' in-game activities, such as upgrading the user's car), 
+\hlc{arg1}{arg2} while offering a virtual environment for the practice of eco-driving. 
+As a research tool, iCO$_2$ can be seen as a Human Computation system where humans provide driving behavior. This allows us to better understand how users interact with a game that motivates them to drive eco-friendly. In this way, our system is related to other activities aimed at attracting users' work, such as Games with a Purpose or crowdsourcing.
 
 We have described our newest version of iCO$_2$ that extends the previous version \citep{prendingeroliveira2014} by a quest system and a ``garage'' to improve the capabilities of the player's vehicle.
 
