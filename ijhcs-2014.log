@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.4)  25 JUN 2015 17:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.4)  25 JUN 2015 17:45
 entering extended mode
 **ijhcs-2014.tex
 (F:\IJHCSICO2\ijhcs-2014.tex
@@ -879,105 +879,106 @@ LaTeX Warning: there is no bold Symbol font on input line 123.
 [6] [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 272.
+(hyperref)                removing `math shift' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 272.
+(hyperref)                removing `subscript' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 272.
+(hyperref)                removing `math shift' on input line 279.
 
-[8] <ijhcs14-img/iCO2_driving.png, id=312, 1253.28226pt x 786.5385pt>
+[8] <ijhcs14-img/iCO2_driving.png, id=311, 1253.28226pt x 786.5385pt>
 File: ijhcs14-img/iCO2_driving.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_driving.png>
-Package pdftex.def Info: ijhcs14-img/iCO2_driving.png used on input line 282.
+Package pdftex.def Info: ijhcs14-img/iCO2_driving.png used on input line 289.
 (pdftex.def)             Requested size: 418.96547pt x 262.93095pt.
- [9 <F:/IJHCSICO2/ijhcs14-img/iCO2_driving.png>] <ijhcs14-img/iCO2_garage.png, 
-id=322, 858.20625pt x 534.19576pt>
+ [9] [10 <F:/IJHCSICO2/ijhcs14-img/iCO2_driving.png>] <ijhcs14-img/iCO2_garage.
+png, id=326, 858.20625pt x 534.19576pt>
 File: ijhcs14-img/iCO2_garage.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_garage.png>
-Package pdftex.def Info: ijhcs14-img/iCO2_garage.png used on input line 304.
+Package pdftex.def Info: ijhcs14-img/iCO2_garage.png used on input line 311.
 (pdftex.def)             Requested size: 352.8155pt x 219.60857pt.
- [10]
-<ijhcs14-img/iCO2_navigator.png, id=330, 1253.28226pt x 782.925pt>
+
+<ijhcs14-img/iCO2_navigator.png, id=329, 1253.28226pt x 782.925pt>
 File: ijhcs14-img/iCO2_navigator.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_navigator.png>
-Package pdftex.def Info: ijhcs14-img/iCO2_navigator.png used on input line 317.
+Package pdftex.def Info: ijhcs14-img/iCO2_navigator.png used on input line 324.
 
 (pdftex.def)             Requested size: 418.96547pt x 261.723pt.
  [11 <F:/IJHCSICO2/ijhcs14-img/iCO2_garage.png>] [12 <F:/IJHCSICO2/ijhcs14-img/
 iCO2_navigator.png>]
-<ijhcs14-img/iCO2_generalarchitecture.png, id=348, 469.2732pt x 302.0886pt>
+<ijhcs14-img/iCO2_generalarchitecture.png, id=347, 469.2732pt x 302.0886pt>
 File: ijhcs14-img/iCO2_generalarchitecture.png Graphic file (type png)
 
 <use ijhcs14-img/iCO2_generalarchitecture.png>
 Package pdftex.def Info: ijhcs14-img/iCO2_generalarchitecture.png used on input
- line 338.
+ line 345.
 (pdftex.def)             Requested size: 264.61331pt x 170.34848pt.
- [13 <F:/IJHCSICO2/ijhcs14-img/iCO2_generalarchitecture.png>]
 
-LaTeX Warning: Reference `T:drivingdata' on page 14 undefined on input line 351
+
+LaTeX Warning: Reference `T:drivingdata' on page 13 undefined on input line 358
 .
 
+[13] [14 <F:/IJHCSICO2/ijhcs14-img/iCO2_generalarchitecture.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 378.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 378.
+(hyperref)                removing `math shift' on input line 385.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 378.
+(hyperref)                removing `subscript' on input line 385.
 
-[14] <ijhcs14-img/engagement.png, id=378, 626.34pt x 231.86626pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 385.
+
+[15] <ijhcs14-img/engagement.png, id=396, 626.34pt x 231.86626pt>
 File: ijhcs14-img/engagement.png Graphic file (type png)
 
 <use ijhcs14-img/engagement.png>
-Package pdftex.def Info: ijhcs14-img/engagement.png used on input line 406.
+Package pdftex.def Info: ijhcs14-img/engagement.png used on input line 413.
 (pdftex.def)             Requested size: 418.96547pt x 155.10191pt.
 
-<ijhcs14-img/completion.png, id=379, 619.113pt x 196.93575pt>
+<ijhcs14-img/completion.png, id=397, 619.113pt x 196.93575pt>
 File: ijhcs14-img/completion.png Graphic file (type png)
 
 <use ijhcs14-img/completion.png>
-Package pdftex.def Info: ijhcs14-img/completion.png used on input line 413.
+Package pdftex.def Info: ijhcs14-img/completion.png used on input line 420.
 (pdftex.def)             Requested size: 418.96547pt x 133.27144pt.
 
-<ijhcs14-img/4diagrams2.png, id=380, 591.4095pt x 346.896pt>
+<ijhcs14-img/4diagrams2.png, id=398, 591.4095pt x 346.896pt>
 File: ijhcs14-img/4diagrams2.png Graphic file (type png)
 
 <use ijhcs14-img/4diagrams2.png>
-Package pdftex.def Info: ijhcs14-img/4diagrams2.png used on input line 421.
+Package pdftex.def Info: ijhcs14-img/4diagrams2.png used on input line 428.
 (pdftex.def)             Requested size: 418.96547pt x 245.74738pt.
 
-<ijhcs14-img/time.png, id=381, 414.348pt x 235.47975pt>
+<ijhcs14-img/time.png, id=399, 414.348pt x 235.47975pt>
 File: ijhcs14-img/time.png Graphic file (type png)
 
 <use ijhcs14-img/time.png>
-Package pdftex.def Info: ijhcs14-img/time.png used on input line 428.
+Package pdftex.def Info: ijhcs14-img/time.png used on input line 435.
 (pdftex.def)             Requested size: 352.8155pt x 200.51085pt.
- [15] [16 <F:/IJHCSICO2/ijhcs14-img/engagement.png> <F:/IJHCSICO2/ijhcs14-img/c
-ompletion.png>] [17 <F:/IJHCSICO2/ijhcs14-img/4diagrams2.png>] [18 <F:/IJHCSICO
-2/ijhcs14-img/time.png>]
+ [16 <F:/IJHCSICO2/ijhcs14-img/engagement.png> <F:/IJHCSICO2/ijhcs14-img/comple
+tion.png>] [17 <F:/IJHCSICO2/ijhcs14-img/4diagrams2.png>] [18 <F:/IJHCSICO2/ijh
+cs14-img/time.png>]
 <ijhcs14-img/kmeansclustering.png, id=437, 541.27219pt x 303.38344pt>
 File: ijhcs14-img/kmeansclustering.png Graphic file (type png)
 
 <use ijhcs14-img/kmeansclustering.png>
 Package pdftex.def Info: ijhcs14-img/kmeansclustering.png used on input line 50
-1.
+8.
 (pdftex.def)             Requested size: 441.01772pt x 247.19745pt.
-
+ [19]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19] [20 <F:/IJHCSICO2/ijhcs14-img/kmeansclustering.png (PNG copy)>]
+[20 <F:/IJHCSICO2/ijhcs14-img/kmeansclustering.png (PNG copy)>] [21]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
@@ -1019,36 +1020,39 @@ Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
- [21]
-[22] [23]
+ [22]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23]
 <ijhcs14-img/cluster_activities_driver_types.png, id=478, 502.87875pt x 268.754
 06pt>
 File: ijhcs14-img/cluster_activities_driver_types.png Graphic file (type png)
  <use ijhcs14-img/cluster_activities_driver_types.png>
 Package pdftex.def Info: ijhcs14-img/cluster_activities_driver_types.png used o
-n input line 665.
+n input line 673.
 (pdftex.def)             Requested size: 352.8155pt x 188.55304pt.
- [24 <F:/IJHCSICO2/ijhcs14-img/cluster_activities_driver_types.png (PNG copy)>]
-
-<ijhcs14-img/Evolution.pdf, id=486, 505.89pt x 361.35pt>
+ [24]
+<ijhcs14-img/Evolution.pdf, id=485, 505.89pt x 361.35pt>
 File: ijhcs14-img/Evolution.pdf Graphic file (type pdf)
 
 <use ijhcs14-img/Evolution.pdf>
-Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 682.
+Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 690.
 (pdftex.def)             Requested size: 569.10603pt x 512.20398pt.
 
-Overfull \hbox (128.08832pt too wide) in paragraph at lines 682--684
+Overfull \hbox (128.08832pt too wide) in paragraph at lines 690--692
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 688.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 696.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 688.
- [25]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 696.
+ [25 <F:/IJHCSICO2/ijhcs14-img/cluster_activities_driver_types.png (PNG copy)>]
+
 
 LaTeX Warning: Text page 26 contains only floats.
 
@@ -1056,13 +1060,13 @@ LaTeX Warning: Text page 26 contains only floats.
 Overfull \vbox (5.95552pt too high) has occurred while \output is active []
 
 
-[26 <F:/IJHCSICO2/ijhcs14-img/Evolution.pdf>]
-Overfull \hbox (11.29999pt too wide) in paragraph at lines 702--703
+[26 <F:/IJHCSICO2/ijhcs14-img/Evolution.pdf>] [27]
+Overfull \hbox (11.29999pt too wide) in paragraph at lines 712--713
 []\OT1/ptm/m/n/12 We have de-scribed our newest ver-sion of iCO$[]$ that ex-ten
 ds the pre-vi-ous ver-sion ([]Prendinger
  []
 
-[27]
+[28]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1071,7 +1075,7 @@ Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
- (F:\IJHCSICO2\ijhcs-2014.bbl [28]
+ (F:\IJHCSICO2\ijhcs-2014.bbl [29]
 Underfull \hbox (badness 10000) in paragraph at lines 50--53
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . spevents . co . uk / ou
 r -[] events / event -[] selector / exhibition _$
@@ -1083,63 +1087,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 ishingImages / ecodrive -[] site / en /$
  []
 
-[29] [30]
+[30] [31]
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . digitalbuzzblog . com /
  infographic -[] 2013 -[] mobile -[] growth -[]$
  []
 
-[31]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 187--190
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 https : / / itunes . apple . com / gb / 
 app / truck -[] fuel -[] eco -[] driving /$
  []
 
-[32]) <ijhcs14-img/playsessions_europe.png, id=560, 858.20625pt x 546.04pt>
+[33]) <ijhcs14-img/playsessions_europe.png, id=564, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_europe.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_europe.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_europe.png used on input line
- 893.
+ 903.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_asia.png, id=561, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_asia.png, id=565, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_asia.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_asia.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_asia.png used on input line 9
-00.
+10.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_america.png, id=562, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_america.png, id=566, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_america.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_america.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_america.png used on input lin
-e 907.
+e 917.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
- [33 <F:/IJHCSICO2/ijhcs14-img/playsessions_europe.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 966.
- [34 <F:/IJHCSICO2/ijhcs14-img/playsessions_asia.png> <F:/IJHCSICO2/ijhcs14-img
+ [34 <F:/IJHCSICO2/ijhcs14-img/playsessions_europe.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 976.
+ [35 <F:/IJHCSICO2/ijhcs14-img/playsessions_asia.png> <F:/IJHCSICO2/ijhcs14-img
 /playsessions_america.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 966.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 976.
  (F:\IJHCSICO2\ijhcs-2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 966.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 966.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 976.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 976.
 Package rerunfilecheck Info: File `ijhcs-2014.out' has not changed.
 (rerunfilecheck)             Checksum: AFFFAFFD60106E21F68A21A405295557;1564.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 966.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 976.
  ) 
 Here is how much of TeX's memory you used:
- 18397 strings out of 493921
- 332402 string characters out of 3144871
- 449167 words of memory out of 3000000
+ 18401 strings out of 493921
+ 332426 string characters out of 3144871
+ 447863 words of memory out of 3000000
  21153 multiletter control sequences out of 15000+200000
- 48113 words of font info for 109 fonts, out of 3000000 for 9000
+ 49658 words of font info for 112 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,10n,56p,1603b,626s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -1152,9 +1156,9 @@ eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on ijhcs-2014.pdf (34 pages, 5347480 bytes).
+Output written on ijhcs-2014.pdf (35 pages, 5352284 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
+ 642 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  267 words of extra memory for PDF output out of 10000 (max. 10000000)
 

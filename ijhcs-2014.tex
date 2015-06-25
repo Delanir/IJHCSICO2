@@ -126,6 +126,8 @@ Data collection; data analysis; driving behavior; Human Computation system; Game
 %\citep{Andrade+others.2005,Bellotti+others.2009,Hwang+Salvendy.2010,Csikszentmihalyi.1990}
 %\cite{Andrade+others.2005,Bellotti+others.2009,Hwang+Salvendy.2010,Csikszentmihalyi.1990}
 
+\theme {This is theme}
+
 Our world today is tightly interconnected by the Internet, which allows users from almost anywhere to access information anytime in an affordable and immediate manner. For scientists, this situation opens hitherto unknown opportunities for experimental testing of novel online applications. While in principle vast populations can  be reached quickly and effortlessly, motivating users to participate in social experiments is a big challenge. It is important to provide an adequate incentive other than money to the users, so that they do not have any motivation to cheat \citep{Quinn}.
 As a solution, Games With a Purpose (GWAP) have been proposed \citep{vonAhn2006Games}. GWAP is a field of Human Computation \citep{Yuen.2009,Krause+Smeddinck.2011} that seeks to motivate users, such as annotators of pictures or testers of applications, through enjoyment rather than any monetary incentive.
 
@@ -141,7 +143,9 @@ Our data collection platform uses a hybrid strategy to give an incentive to play
 a company that handles mobile games promotion, to attract a large number of users (in the 1000s) to iCO$_2$ within a short time. This approach constitutes an alternative to the tools and applications that have been used in research projects involving games \citep{kittur2008crowdsourcing,Biewald:2012,ChanH12}.
 In order to keep players motivated, we provide a quest system and the possibility to upgrade the user's car as in-game mechanics.
 
-The main contribution of this paper is a human-computer study that aims to help us understand how users interact with a mobile game on eco-driving. Since we built our own multiuser game, we had full access to all the behavior data of the users. We could obtain unique insights into the users' activities in terms of eco-driving types (eco-friendly, normal, etc.) and the usage of the ``garage'', where users could upgrade and modify their car with the in-game money rewarded from the quests. Our study is exploratory as it was difficult to formulate hypotheses on users' behavior beforehand. However, its results allow one to improve the design of the game.
+The main contribution of this paper is a human-computer study that aims to help us understand how users interact with a mobile game on eco-driving, 
+\hlc{[green]}{and the way their driving style evolve.} 
+Since we built our own multiuser game, we had full access to all the behavior data of the users. We could obtain unique insights into the users' activities in terms of eco-driving types (eco-friendly, normal, etc.) and the usage of the ``garage'', where users could upgrade and modify their car with the in-game money rewarded from the quests. Our study is exploratory as it was difficult to formulate hypotheses on users' behavior beforehand. However, its results allow one to improve the design of the game.
 
 %Our great objective is to collect real-time accurate big data, data that is to framed into a knowledge base relevant to eco-driving, which is why we also show and discuss how big a step iCO$_2$ has taken towards the smaller objective of helping individuals understand, and practice, eco-friendly driving in a more accessible and still relevant manner. Current technologies either involve linear 2D applications \citep{EcoGame1,EcoGame2,TruckEcoGame,Moebius,FiatEcoGame}, or driving simulators that must be played on the respective physical chair-wheel-and-pedals simulator \citep{EcoSimulator,GreenDino,EcoSimulator2,sabrina2013enhanced} or support applications or mini-games that focus on relevant information feedback \citep{FiatEcoGame,EcoTools,Brunnberg04theroad,endres2010youldeco}.
 
@@ -182,6 +186,9 @@ Then we will explain how our work can be positioned within the crowdsourcing lit
 \subsection{Eco-driving Games and Training Applications}
 \label{subsec:eco-driving}
 
+\hlc[green]{
+Eco-driving is a term used to describe the usage of vehicles in an energy efficient way. The main objective is the reduction of fuel consumption, so that the same amount of fuel allows for a longer mileage.
+}
 The training of eco-driving is important as it greatly affects world-wide fuel expenditure and pollution emissions \citep{barkenbus2010eco,shaheen2012ecodriving}. Therefore, car manufacturers are starting to develop applications that provide drivers with some feedback on the effects of their driving behavior \citep{EcoTools,FiatEcoGame}.
 
 iCO$_2$ is first and foremost an eco-driving game. It has been designed to work as a massive multiplayer online (MMO) game. Therefore it is possible that users interact with each other, as they would in real life driving. It has been designed to be played in mobile systems so that it is as  accessible as possible by the masses. In particular, our target audience are gamers; a group that has seen its size and playtime exponentially grow over recent years \citep{MobileStats}.
@@ -499,7 +506,8 @@ The SSE can also be used to determine the best number of clusters. We analyzed $
 \begin{figure}[htb]
 	\begin{center}
 		\includegraphics[width=1\linewidth]{ijhcs14-img/kmeansclustering}
-		\caption{Clustering of users' driving behavior based on the rate of change of acceleration.\label{fig:accel-ranges}}
+		\caption{Clustering of users' driving behavior based on the rate of change of acceleration. In order to analyze the driving behavior we are interested in the relative frequency of smooth acceleration. We consider smooth acceleration the interval $[-10,10)$. We label the cluster 1, ``Crazy`` Driver due to the spread out distribution of the rate of acceleration, which means the users in this cluster performed abrupt brakes, acceleration, and collisions with the world.
+			Cluster 2 and 4 on the other hand have a high prevalence of smooth acceleration, even though the cluster 2 focus primarily on smooth braking, and cluster 4 on smooth accelerating, hence the group names ``Eco-Braker`` and ``Eco-Accelerator``. Finally we have a group of players that perform mostly smooth accelerations but still present a considerable amount of abrupt acceleration changes, we label this profile as Normal Drivers. \label{fig:accel-ranges}}
 	\end{center}
 \end{figure}
 
@@ -519,7 +527,7 @@ factor_{eco} = F_{r[-10,10]}
 %sorted table
 \begin{table}[!h]
 	\renewcommand*{\arraystretch}{1.4}
-	\caption{Cluster summary.}
+	\caption{This table presents a summary of the clusters. Here we can see discriminated the relative frequency of smooth acceleration for each cluster; the $factor_{eco}$. Moreover the majority of players fits the Normal Driver profile with a considerable amount of smooth acceleration, mixed with abrupt changes. The percentage of users classified as ``Crazy`` (8.08\%) is less that the sum of the two eco-friendly clusters (``Eco-Brakers`` and ``Eco-Accelerators``), combined. }
 	\begin{center}
 		\begin{tabular}{c|c|c|c}
 			Cluster & $factor_{eco}$ & \% of Users & Cluster Label \\
@@ -618,7 +626,7 @@ Using the 'elbow' heuristic to minimize the Sum of squares due to error (Equatio
 }
 \begin{table}[!h]
 	\renewcommand*{\arraystretch}{1.2}
-	\caption{Time distribution of Activities cluster means.}
+	\caption{Time distribution of Activities cluster means. We obtained 4 profiles on how the users spend their play time. Our clusters 1 and 2 are labeled as "Refuelers", and "In-Game Explorers", these players spend a great part of their time doing in-game activities others than driving. Then we have a class of drivers that practically only drives, the center of mass of this cluster has a driving percentage of 97\%; we call this group ""Pure Drivers". Then we have a class of users that engage primarily on driving, while doing other in-game activities, we label this profile as "Drivers".   }
 	\begin{center}
 		\begin{tabular}{c|c|c|c|c|c}
 			Cluster Number	& Gas Station &	Garage &	Navigator &	Driving &	Car Painter 	\\
@@ -697,7 +705,9 @@ Later should be deleted. }
 
 \section{Conclusions} \label{sec:conclusions}
 
-In this paper, we describe iCO$_2$, a game-like simulation platform for collecting large-scale driving behavior data and other data on users' in-game activities, such as upgrading the user's car. As a research tool, iCO$_2$ can be seen as a Human Computation system where humans provide driving behavior. This allows us to better understand how users interact with a game that motivates them to drive eco-friendly. In this way, our system is related to other activities aimed at attracting users' work, such as Games with a Purpose or crowdsourcing.
+In this paper, we describe iCO$_2$, a game-like simulation platform for collecting large-scale driving behavior data (and other data on users' in-game activities, such as upgrading the user's car), 
+\hlc{arg1}{arg2} while offering a virtual environment for the practice of eco-driving. 
+As a research tool, iCO$_2$ can be seen as a Human Computation system where humans provide driving behavior. This allows us to better understand how users interact with a game that motivates them to drive eco-friendly. In this way, our system is related to other activities aimed at attracting users' work, such as Games with a Purpose or crowdsourcing.
 
 We have described our newest version of iCO$_2$ that extends the previous version \citep{prendingeroliveira2014} by a quest system and a ``garage'' to improve the capabilities of the player's vehicle.
 

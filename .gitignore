@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 *.pdf
 *.log 
 *.gz
+=======
+*.gz
+ijhcs-2014.log
+*.aux
+>>>>>>> 301cd80985d769cbe16a454da876eaf46f56f7c3
