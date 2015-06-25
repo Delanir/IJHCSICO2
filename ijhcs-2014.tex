@@ -52,6 +52,32 @@
 \makeatother
 
 
+
+% Select what to do with todonotes:
+\usepackage[disable]{todonotes} % notes not showed
+%\usepackage[draft]{todonotes}   % notes showed
+
+% Select what to do with command \comment:
+\newcommand{\commentHidden}[1]{}  % my "private comments", are invisible in PDF.
+\newcommand{\theme}[1] {\par {\bfseries \color{blue} #1 \par}} %the theme of paragraph or section showed in blue
+\newcommand{\question}[1] {\par {\bfseries \color{red} #1 \par}} % the question posed to the Prendinger sensei is showed in Red
+\newcommand{\commentShow}[1] {\par {\bfseries \color{orange} #1 \par}} % my "public" comments shown in orange! This may describe, what I am thinking or seeking
+\newcommand{\myChange}[1] {\par {\bfseries \color{brown} #1 \par}} % my "public" comments shown in orange! This may describe, what I am thinking or seeking
+
+
+
+
+% When in final version, to hiden all the themes, questions, comments etc, commend the above command lines and uncomment the following lines 
+
+%
+%\newcommand{\theme}[1] {} %the theme of paragraph or section showed in green
+%\newcommand{\question}[1] {} % the question posed to the sensei is showed in Red
+%\newcommand{\commentShow}[1] {} % my "public" comments shown in Green! This may describe, what I am thinking
+%\newcommand{\plagiarism}[1]{}
+%
+
+
+
 \begin{document}
 
 \begin{frontmatter}
