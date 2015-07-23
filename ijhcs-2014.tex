@@ -426,7 +426,9 @@ In terms of car color, the main difference between the users that finished the e
 	\end{center}
 \end{figure}
 
-The players who finished the engagement seem to have bought more upgrades in relation to refueling. This can make us hypothesize that these players are more interested in exploring the game. 
+The players who finished the engagement seem to have bought more upgrades in relation to refueling. This can make us hypothesize that these players are more interested in exploring the game.
+Given the fact that very player starts off with a Prius, we can see that Fairlady was the most popular car choice. Player did not switched car very often\ref{T:Carswitch}. These players seem to partake in every game activity, and as expected from the transactions graph in Figure \ref{fig:engagementtransactions}, trips to the garage are more common than trips to the Gas Station.
+On average the users who completed the engagement played for more 10 minutes, and did an average of 2.1 more quests.
 
 \begin{figure}[htb]
 	\begin{center}
@@ -434,6 +436,52 @@ The players who finished the engagement seem to have bought more upgrades in rel
 		\caption{Transactions distribution for the users that finished the engagement.\label{fig:engagementtransactions}}
 	\end{center}
 \end{figure}
+
+
+\begin{table}[!htb]
+	\renewcommand*{\arraystretch}{1.4}
+	\caption{This table presents the car switches performed by player who completed the engagement.}
+	\begin{center}
+		\begin{tabular}{c|c|c|c}
+			Current Car/ Switched Car & Prius & Fairlady & BladeGlider \\
+			\hline
+			Prius &	 0
+			& 24  & 3  \\
+			
+			Fairlady & 3
+			& 0  &  2 \\
+			
+			BladeGlider &	 0
+			& 1  &  0  \\
+		
+		\end{tabular}
+	\end{center}
+	\label{T:Carswitch}
+\end{table}
+
+
+\begin{table}[!htb]
+	\renewcommand*{\arraystretch}{1.4}
+	\caption{This table presents the activity switched during the game for player who completed the engagement.}
+	\begin{center}
+		\begin{tabular}{c|c|c|c|c|c|c}
+			Current Activity/ Next Activity & CarPainter & Driving & Garage & GasStation &  Navigator\\
+			\hline
+			CarPainter &	0&	39&	0&	0&	0\\
+			
+			Driving & 0	 & 0&	199&	102&	372\\
+			
+			Garage& 41&	143&	0&	1&	2 \\
+			
+			GasStation& 	0&	99&	2&	0&	2 \\
+			
+			Navigator& 0&	375&	0&	0&	0 \\
+			
+		\end{tabular}
+	\end{center}
+	\label{T:Activityswitch}
+\end{table}
+
 
 
 \section{Results}
