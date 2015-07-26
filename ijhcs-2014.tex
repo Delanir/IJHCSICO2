@@ -369,7 +369,7 @@ In Section \ref{sec:result}, we present our analysis and insights from our exper
 \subsection{Usage Statistics}
 \label{subsec:usage_stats}
 
-Figures \ref{fig:engagement}, \ref{fig:completion}, \ref{fig:4diagrams} and \ref{fig:time} show different usage statistics of the iCO$_2$ campaign. A `quest' in iCO$_2$ encompasses the activity of picking up a passenger or cargo at a starting point and bringing (delivering) the passenger (cargo) to a destination. For both activities, the player has to completely stop the car. In our campaign, the task of the users was to complete two quests.
+Figures \ref{fig:engagement}, \ref{fig:completion}, \ref{fig:4diagrams_color}, \ref{fig:4diagrams_transactions},  \ref{fig:time} and the Tables \ref{T:Activityswitch_all} and \ref{T:Carswitch_all}  show different usage statistics of the iCO$_2$ campaign. A `quest' in iCO$_2$ encompasses the activity of picking up a passenger or cargo at a starting point and bringing (delivering) the passenger (cargo) to a destination. For both activities, the player has to completely stop the car. In our campaign, the task of the users was to complete two quests.
 `Engagement' is a term used by Tapjoy and refers to the requirement of receiving a reward. In our case, players had to complete two quests.
 
 \begin{figure}[htb]
@@ -387,12 +387,76 @@ Figures \ref{fig:engagement}, \ref{fig:completion}, \ref{fig:4diagrams} and \ref
 \end{figure}
 
 
+%\begin{figure}[htb]
+%	\begin{center}
+%		\includegraphics[width=.95\linewidth]{ijhcs14-img/4diagrams2}
+%		\caption{Various iCO$_2$ statistics.\label{fig:4diagrams}}
+%	\end{center}
+%\end{figure}
+
 \begin{figure}[htb]
 	\begin{center}
-		\includegraphics[width=.95\linewidth]{ijhcs14-img/4diagrams2}
-		\caption{Various iCO$_2$ statistics.\label{fig:4diagrams}}
+		\includegraphics[width=.95\linewidth]{ijhcs14-img/colour_all}
+		\caption{Car color distributions for the players that switched car color.\label{fig:4diagrams_color}}
 	\end{center}
 \end{figure}
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=.95\linewidth]{ijhcs14-img/transactions_all}
+		\caption{Transactions distribution.\label{fig:4diagrams_transactions}}
+	\end{center}
+\end{figure}
+
+\begin{table}[!htb]
+	\renewcommand*{\arraystretch}{1.4}
+	\caption{This table presents the activity switched during the game.}
+	\begin{center}
+		\begin{tabular}{c|c|c|c|c|c|c}
+			Current Activity/ Next Activity & CarPainter & Driving & Garage & GasStation &  Navigator\\
+			\hline
+			CarPainter & 0&	348&	0&	1&	0\\
+			
+			Driving & 10&	0&	1971&	566&	1257\\
+			
+			Garage& 356&	1472&	0&	4&	9\\
+			
+			GasStation& 0&	524&	20&	0&	6\\
+			
+			Navigator& 0&	1258&	0&	0&	0\\
+			
+			
+		\end{tabular}
+	\end{center}
+	\label{T:Activityswitch_all}
+\end{table}
+
+
+
+
+
+
+
+\begin{table}[!htb]
+	\renewcommand*{\arraystretch}{1.4}
+	\caption{This table presents the car switches performed by all players.}
+	\begin{center}
+		\begin{tabular}{c|c|c|c}
+			Current Car/ Switched Car & Prius & Fairlady & BladeGlider \\
+			\hline
+			Prius &	 0
+			& 24  & 3  \\
+			
+			Fairlady & 9
+			& 0  &  2 \\
+			
+			BladeGlider &	 0
+			& 1  &  0  \\
+			
+		\end{tabular}
+	\end{center}
+	\label{T:Carswitch_all}
+\end{table}
 
 
 In total, 3184 players have played iCO$_2$; among them, 33\% finished the engagement (see Fig.~\ref{fig:engagement}). American players had the highest participation and completion rate, with 725 players finishing the engagement, while 864 did not. European users were most likely to abandon the engagement, with 887 players not finishing and only 149 completing the engagement. 392 Asian users, who were mostly from Japan, did not finish the engagement while 167 did.
@@ -403,7 +467,10 @@ Figure \ref{fig:completion} shows the number of players that did not complete th
 The number of times a player logs into the game helps us to better understand the way players interact with iCO$_2$, or its re-playability potential. A `play session' is an uninterrupted chunk of play time. The majority of players only played the game once, as we can see on Figures \ref{fig:playtime_e}, \ref{fig:playtime_as}, and \ref{fig:playtime_a} (in Appendix).
 On the Europe server, 21.7\% of the players opened the game at least twice; that number is 18.8\% for Asia, and 10.2\% for America.
 
-We can see various iCO$_2$ statistics in Fig.~\ref{fig:4diagrams}. Graph A shows the play-state switching distribution, Graph B shows the transaction distribution, Graph C shows the car switching distribution, and Graph D shows the car color distribution. The play-state was switched a total of 7969 times, mostly towards the driving state (47\%), followed by the garage (25\%), navigator (16\%), gas station (7\%) and lastly painting the car (5\%). Please note that the percentages do not reflect the time spent in a state, but the act of switching from one state to another state. In graph B, we can see how users spent their in-game currency. Most of it was spent on car upgrades (53\%) and new cars (46\%), with only 1\% spent on fuel. A total of 1850 transactions were made. Users did not switch their cars very often, only a total of 55 switches occurred as denoted in Graph C. Out of these, 46\% of players switched to the ``Fairlady``, 45\% switched to the ``Bladeglider`` and only 9\% switched to the Prius. As for the color distribution, the users preferred a red car by far (39\%), followed by green and blue (22\% each) and the less popular white (9\%), yellow (5\%) and grey (3\%). In total, cars were recolored 243 times.
+We can see various iCO$_2$ statistics in 
+%Fig.~\ref{fig:4diagrams}
+Figures \ref{fig:4diagrams_color}, \ref{fig:4diagrams_transactions}, and the Tables \ref{T:Activityswitch_all} and \ref{T:Carswitch_all}. 
+Tables \ref{T:Activityswitch_all} shows the play-state switching distribution, Figure \ref{fig:4diagrams_transactions} shows the transaction distribution, Table \ref{T:Carswitch_all} shows the car switching distribution, and Figure \ref{fig:4diagrams_color} shows the car color distribution. The play-state was switched a total of 7802 times, mostly towards the driving state. In Figure \ref{fig:4diagrams_transactions}, we can see how users spent their in-game currency. Most of it was spent on car upgrades (47\%) and refueling (52\%), with only 1\% spent on new cars. A total of 1297 transactions were made. Users did not switch their cars very often, only a total of 39 switches occurred as denoted in Table \ref{T:Carswitch_all}. As for the color distribution, the users preferred a red car by far (43\%), followed by green and blue (19\% and 20\%) and the less popular white (5\%), yellow (5\%) and grey (9\%). In total, cars were recolored 265 times.
 
 \begin{figure}[htb]
 	\begin{center}
@@ -427,7 +494,8 @@ In terms of car color, the main difference between the users that finished the e
 \end{figure}
 
 The players who finished the engagement seem to have bought more upgrades in relation to refueling. This can make us hypothesize that these players are more interested in exploring the game.
-Given the fact that very player starts off with a Prius, we can see that Fairlady was the most popular car choice. Player did not switched car very often\ref{T:Carswitch}. These players seem to partake in every game activity, and as expected from the transactions graph in Figure \ref{fig:engagementtransactions}, trips to the garage are more common than trips to the Gas Station.
+Given the fact that very player starts off with a Prius, we can see that Fairlady was the most popular car choice. Players did not switched car very often, as we can see in Table \ref{T:Carswitch}, and players who completed the engagement were those who actually switched cars, with 6 switches happening before they complete the engagement. 
+These players seem to partake in every game activity, and as expected from the transactions graph in Figure \ref{fig:engagementtransactions}, trips to the garage are more common than trips to the Gas Station.
 On average the users who completed the engagement played for more 10 minutes, and did an average of 2.1 more quests.
 
 \begin{figure}[htb]
@@ -585,12 +653,15 @@ After we classified users according to their driving behavior, we were curious h
 First, we are interested in the correlation between painting a car in a particular color and being an ``eco-unfriendly'' driver.\footnote{In the real world, such information can be interesting for insurance companies.}
 ``Eco-unfriendliness'' is characterized by the levels of the $factor_{eco}$ parameter in Table \ref{T:factors}. This enables us to order our clusters from the most to the least eco-friendly cluster: Cluster 4 $<$ Cluster 2 $<$ Cluster 3 $<$ Cluster 1, or ``Eco-Accelerator``  $<$ ``Eco-Braker`` $<$  Normal $<$ ``Crazy``.
 
-We use Kendall correlation coefficient to find associations between the data, which enables us to understand the relationship between the ranks of the variables. We performed this analysis for every car color, for each server.
+We use Kendall correlation coefficient to find associations between the data, which enables us to understand the relationship between the ranks of the variables. Kendall correlations provide a number between -1 and 1. A negative correlation coefficient means that it is negatively correlated, in this case, it means more eco-friendly users tend to do a certain behavior. When we have a positive correlation, it means that a certain behavior is associated with being more eco-unfriendlt, given our cluster ordering: ``Eco-Accelerator``  $<$ ``Eco-Braker`` $<$  Normal $<$ ``Crazy``.  We performed this analysis for every car color, for each server.
 In case of the Kendall correlation coefficient, correlations less than 0.10 are considered very weak, correlations between 0.10 and 0.19 are considered weak, correlations between 0.20 and 0.29 are considered moderate, and correlations greater or equal than 0.30 are considered strong.
 
-We noticed that the different servers have distinct biases for the color chosen and how eco-unfriendly a user is according to his profile obtained by clustering the acceleration rate. \hl{I CANNOT UNDERSTAND THE PART AFTER "AND HOW...." CAN YOU REFORMULATE IN MORE STRAIGHTFORWARD LANGUAGE?}
+We noticed that the different servers have distinct biases for the color chosen given the player profiles we obtained through clustering. 
 
-For example, painting the car green tended to be more associated with driving eco-friendly both in Europe, with Kendall correlation coefficients of $-$0.22, and in America the association is weak -0.11, while in the Asia dataset, despite the association being weak, it points to a weak relation towards eco-unfriendlyness with a Kendall coefficient of 0.14. Here we can only say that the European server has a slight bias towards being more eco-friendly. \hl{CAN YOU RE-WRITE THE PARAGRAPH INTO SIMPLE, DIRECT LANGUAGE? I AM CONFUSED WITH THE NEGATIVE VALUES. WE BETTER EXPLAIN WHAT NEGATIVE VALUES MEAN...}
+%eco-unfriendly a user is according to his profile obtained by clustering the acceleration rate. \hl{I CANNOT UNDERSTAND THE PART AFTER "AND HOW...." CAN YOU REFORMULATE IN MORE STRAIGHTFORWARD LANGUAGE?}
+
+For example, painting the car green tended to be more associated with driving eco-friendly both in Europe, with Kendall correlation coefficients of $-$0.22, and in America the association is weak -0.11, while in the Asia dataset, despite the association being weak, it points to a weak relation towards eco-unfriendlyness with a Kendall coefficient of 0.14. Here we can only say that the European server has a slight bias towards being more eco-friendly. 
+%\hl{CAN YOU RE-WRITE THE PARAGRAPH INTO SIMPLE, DIRECT LANGUAGE? I AM CONFUSED WITH THE NEGATIVE VALUES. WE BETTER EXPLAIN WHAT NEGATIVE VALUES MEAN...}
 
 Painting the car blue is associated with eco-unfriendly driving in Europe (0.60) and and in Asia (0.30), while there is no apparent relation in America (0.001).
 The red color also seems to have no impact in the America dataset (0.03), whereas the red painted car is associated with eco-friendly behavior in Asia ($-$0.45), and haS a slight association with eco-unfriendly driving in Europe (0.26).
@@ -610,7 +681,9 @@ The color gray seems to be associated with being more eco-unfriendly in a weak w
 Next, we are interested in types of players as judged from their in-game activities.
 As explained in Section \ref{sec:platform}, users have access to five different activities in the game, They can (1) drive, (2) go to the garage, (3) go to gas station, (4) use the navigator tool to plan their routes, (5) paint their car.
 We performed $k$-means clustering to understand how the users spend their time within the game, and what activities they engage in. We aim at extracting profiles of the time distribution of how users spend their time in the game.
-For clustering, we only considered users who played more than 4 minutes. This is the median time to finish the Tapjoy engagement. \hl{I THINK THIS SHOULD BE MADE CONSISTENT WITH THE PLACE WHERE WE ACTUALLY DISCUSS THE DURATION OF PERFORMING THE ENGAGEMENT.....}
+For clustering, we only considered users who played more than 4 minutes. 
+
+%This is the median time to finish the Tapjoy engagement. \hl{I THINK THIS SHOULD BE MADE CONSISTENT WITH THE PLACE WHERE WE ACTUALLY DISCUSS THE DURATION OF PERFORMING THE ENGAGEMENT.....}
 
 \begin{table}[tb]
 	\renewcommand*{\arraystretch}{1.2}
@@ -633,12 +706,14 @@ We obtained four profiles regarding the way users spent their play time. Cluster
 %As expected driving takes up the majority of time spent in the game. Moreover the majority of players, only engages on the driving aspect of the game as we can see on the Cluster 3, which we labeled as "Pure Drivers".
 
 
-Figure \ref{fig:activity_driving} shows that pure drivers (as players) are prevalent across every type of driver.
-If we consider being interested in only the driving aspect the profiles ``Drivers'' and ``Pure Drivers'', we see that only the ``Normal Drivers'' have an equal percentage of players only interested on the driving aspect and those who focused a lot on exploring other game activities, such as browsing and buying upgrades, painting cars, etc. \hl{PLEASE RE-WRITE THE PREVIOUS SENTENCE INTO UNDERSTANDABLE FORMAT.}
+Figure \ref{fig:activity_driving} shows that  being a ''Pure Driver'' (as players) are more probable with the Eco-friendly players and the ''Çrazy'' ones.
+``Normal Drivers'' have an equal percentage of players only interested on the driving aspect (''Drivers'' and ''Pure Drivers'').
+%\hl{PLEASE RE-WRITE THE PREVIOUS SENTENCE INTO UNDERSTANDABLE FORMAT.}
 
 %Players that manifest interest in exploring each available activity of iCO$_2$  offer, those profiles are illustrated by the activity cluster labeled "In-Game Explorers" and "Refuellers".
 
-Surprisingly the ``Refuellers'' have a high prevalence among the eco-friendly drivers (``Eco-Brakers'' and ``Eco-Accelerators''). One reason to explain this behavior is the fact that the eco-friendly users were more conscious of their fuel tank data.\hl{I AM NOT SURE BUT EACH DRIVER CAN SEE THE STATUS OF FUEL ALL THE TIME, DOES NOT HAVE TO GO TO THE GAS STATION, RIGHT?}
+Surprisingly the ``Refuellers'' have a high prevalence among the eco-friendly drivers (``Eco-Brakers'' and ``Eco-Accelerators''). One reason to explain this behavior is the fact that the eco-friendly users were more conscious of their fuel tank display filling their tanks more often even though they were not empty.
+%\hl{I AM NOT SURE BUT EACH DRIVER CAN SEE THE STATUS OF FUEL ALL THE TIME, DOES NOT HAVE TO GO TO THE GAS STATION, RIGHT? they can see the fuel every time }
 %The cluster labels as ``Refuelers`` is also one of which has more time spent on Route planning (Navigator), and manifested curiosity to try the various activities the game has to offer.
 Not surprisingly, the players labeled as ``Crazy Drivers'' are mostly ``Pure Drivers'' (35\%) and have the lowest prevalence of ``Refuelers''.
 %It's curious that this activity profile (``Refuelers'), tends to be more prevalent either with those who comply more with the game goal.

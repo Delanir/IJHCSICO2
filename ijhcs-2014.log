@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  24 JUL 2015 01:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  26 JUL 2015 10:30
 entering extended mode
 **ijhcs-2014.tex
 (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.tex
@@ -962,102 +962,119 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 349.
 
 [8 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_navigato
-r.png>] <ijhcs14-img/engagement.png, id=315, 626.34pt x 231.86626pt>
+r.png>] <ijhcs14-img/engagement.png, id=318, 626.34pt x 231.86626pt>
 File: ijhcs14-img/engagement.png Graphic file (type png)
 
 <use ijhcs14-img/engagement.png>
 Package pdftex.def Info: ijhcs14-img/engagement.png used on input line 377.
 (pdftex.def)             Requested size: 418.96547pt x 155.10191pt.
 
-<ijhcs14-img/completion.png, id=316, 619.113pt x 196.93575pt>
+<ijhcs14-img/completion.png, id=319, 619.113pt x 196.93575pt>
 File: ijhcs14-img/completion.png Graphic file (type png)
 
 <use ijhcs14-img/completion.png>
 Package pdftex.def Info: ijhcs14-img/completion.png used on input line 384.
 (pdftex.def)             Requested size: 418.96547pt x 133.27144pt.
 
-<ijhcs14-img/4diagrams2.png, id=317, 591.4095pt x 346.896pt>
-File: ijhcs14-img/4diagrams2.png Graphic file (type png)
+<ijhcs14-img/colour_all.png, id=320, 912.40875pt x 554.07pt>
+File: ijhcs14-img/colour_all.png Graphic file (type png)
 
-<use ijhcs14-img/4diagrams2.png>
-Package pdftex.def Info: ijhcs14-img/4diagrams2.png used on input line 392.
-(pdftex.def)             Requested size: 418.96547pt x 245.74738pt.
- [9 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_general
-architecture.png>] [10 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs
-14-img/engagement.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs
-14-img/completion.png>]
-<ijhcs14-img/time.png, id=342, 490.83376pt x 397.485pt>
-File: ijhcs14-img/time.png Graphic file (type png)
-
-<use ijhcs14-img/time.png>
-Package pdftex.def Info: ijhcs14-img/time.png used on input line 410.
-(pdftex.def)             Requested size: 264.61331pt x 214.29298pt.
-
-<ijhcs14-img/Color.png, id=348, 912.40875pt x 554.07pt>
-File: ijhcs14-img/Color.png Graphic file (type png)
-
-<use ijhcs14-img/Color.png>
-Package pdftex.def Info: ijhcs14-img/Color.png used on input line 424.
-(pdftex.def)             Requested size: 418.96547pt x 254.41875pt.
- [11 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/4diagrams2.
-png>]
-<ijhcs14-img/Transactions.png, id=357, 912.40875pt x 554.07pt>
-File: ijhcs14-img/Transactions.png Graphic file (type png)
-
-<use ijhcs14-img/Transactions.png>
-Package pdftex.def Info: ijhcs14-img/Transactions.png used on input line 435.
+<use ijhcs14-img/colour_all.png>
+Package pdftex.def Info: ijhcs14-img/colour_all.png used on input line 399.
 (pdftex.def)             Requested size: 418.96547pt x 254.41875pt.
 
-Overfull \hbox (4.37006pt too wide) in paragraph at lines 467--481
+<ijhcs14-img/transactions_all.png, id=321, 912.40875pt x 554.07pt>
+File: ijhcs14-img/transactions_all.png Graphic file (type png)
+
+<use ijhcs14-img/transactions_all.png>
+Package pdftex.def Info: ijhcs14-img/transactions_all.png used on input line 40
+6.
+(pdftex.def)             Requested size: 418.96547pt x 254.41875pt.
+
+Overfull \hbox (4.37006pt too wide) in paragraph at lines 415--430
  [] 
  []
 
-[12 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/time.png>]
-[13 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Color.png>]
-[14 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Transactions
-.png>] <ijhcs14-img/kmeansclustering.png, id=399, 541.27219pt x 303.38344pt>
+[9 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_generala
+rchitecture.png>] [10 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs1
+4-img/engagement.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs1
+4-img/completion.png>] [11 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/i
+jhcs14-img/colour_all.png>]
+<ijhcs14-img/time.png, id=363, 490.83376pt x 397.485pt>
+File: ijhcs14-img/time.png Graphic file (type png)
+
+<use ijhcs14-img/time.png>
+Package pdftex.def Info: ijhcs14-img/time.png used on input line 477.
+(pdftex.def)             Requested size: 264.61331pt x 214.29298pt.
+
+<ijhcs14-img/Color.png, id=369, 912.40875pt x 554.07pt>
+File: ijhcs14-img/Color.png Graphic file (type png)
+
+<use ijhcs14-img/Color.png>
+Package pdftex.def Info: ijhcs14-img/Color.png used on input line 491.
+(pdftex.def)             Requested size: 418.96547pt x 254.41875pt.
+ [12 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/transaction
+s_all.png>]
+<ijhcs14-img/Transactions.png, id=378, 912.40875pt x 554.07pt>
+File: ijhcs14-img/Transactions.png Graphic file (type png)
+
+<use ijhcs14-img/Transactions.png>
+Package pdftex.def Info: ijhcs14-img/Transactions.png used on input line 503.
+(pdftex.def)             Requested size: 418.96547pt x 254.41875pt.
+
+Overfull \hbox (4.37006pt too wide) in paragraph at lines 535--549
+ [] 
+ []
+
+[13 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/time.png>]
+[14 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Color.png>]
+[15 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Transactions
+.png>] <ijhcs14-img/kmeansclustering.png, id=421, 541.27219pt x 303.38344pt>
 File: ijhcs14-img/kmeansclustering.png Graphic file (type png)
 
 <use ijhcs14-img/kmeansclustering.png>
-Package pdftex.def Info: ijhcs14-img/kmeansclustering.png used on input line 54
-0.
+Package pdftex.def Info: ijhcs14-img/kmeansclustering.png used on input line 60
+8.
 (pdftex.def)             Requested size: 441.01772pt x 247.19745pt.
- [15 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/kmeansclust
+ [16 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/kmeansclust
 ering.png (PNG copy)>]
-<ijhcs14-img/Rplot01.png, id=410, 912.40875pt x 554.07pt>
+<ijhcs14-img/Rplot01.png, id=431, 912.40875pt x 554.07pt>
 File: ijhcs14-img/Rplot01.png Graphic file (type png)
 
 <use ijhcs14-img/Rplot01.png>
-Package pdftex.def Info: ijhcs14-img/Rplot01.png used on input line 576.
+Package pdftex.def Info: ijhcs14-img/Rplot01.png used on input line 644.
 (pdftex.def)             Requested size: 441.01772pt x 267.81055pt.
- [16] [17 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Rplot0
+ [17] [18 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Rplot0
 1.png>]
-<ijhcs14-img/cluster_activities_driver_types.png, id=428, 532.99126pt x 271.765
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+
+<ijhcs14-img/cluster_activities_driver_types.png, id=450, 532.99126pt x 271.765
 32pt>
 File: ijhcs14-img/cluster_activities_driver_types.png Graphic file (type png)
  <use ijhcs14-img/cluster_activities_driver_types.png>
 Package pdftex.def Info: ijhcs14-img/cluster_activities_driver_types.png used o
-n input line 650.
+n input line 725.
 (pdftex.def)             Requested size: 352.8155pt x 179.90059pt.
 
-<ijhcs14-img/Evolution.pdf, id=429, 505.89pt x 505.89pt>
+<ijhcs14-img/Evolution.pdf, id=451, 505.89pt x 505.89pt>
 File: ijhcs14-img/Evolution.pdf Graphic file (type pdf)
 
 <use ijhcs14-img/Evolution.pdf>
-Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 663.
+Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 738.
 (pdftex.def)             Requested size: 441.01772pt x 441.02388pt.
- [18]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 684.
+ [19 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/cluster_act
+ivities_driver_types.png (PNG copy)>] [20 <C:/Users/PrendingerLab/Desktop/tomor
+row/IJHCSICO2/ijhcs14-img/Evolution.pdf>]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 759.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 684.
- [19 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/cluster_act
-ivities_driver_types.png (PNG copy)>] [20 <C:/Users/PrendingerLab/Desktop/tomor
-row/IJHCSICO2/ijhcs14-img/Evolution.pdf>]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 759.
+ [21]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1067,7 +1084,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.bbl [21]
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.bbl [22]
 Underfull \hbox (badness 10000) in paragraph at lines 50--53
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . spevents . co . uk / ou
 r -[] events / event -[] selector / exhibition _$
@@ -1079,63 +1096,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 ishingImages / ecodrive -[] site / en /$
  []
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . digitalbuzzblog . com /
  infographic -[] 2013 -[] mobile -[] growth -[]$
  []
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 187--190
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 https : / / itunes . apple . com / gb / 
 app / truck -[] fuel -[] eco -[] driving /$
  []
 
-[24]) <ijhcs14-img/playsessions_europe.png, id=509, 858.20625pt x 546.04pt>
+[25]) <ijhcs14-img/playsessions_europe.png, id=531, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_europe.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_europe.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_europe.png used on input line
- 891.
+ 966.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_asia.png, id=510, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_asia.png, id=532, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_asia.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_asia.png>
-Package pdftex.def Info: ijhcs14-img/playsessions_asia.png used on input line 8
-98.
+Package pdftex.def Info: ijhcs14-img/playsessions_asia.png used on input line 9
+73.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_america.png, id=511, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_america.png, id=533, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_america.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_america.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_america.png used on input lin
-e 905.
+e 980.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
- [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 964.
  [26 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playsession
-s_europe.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/pl
-aysessions_asia.png>] [27 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ij
-hcs14-img/playsessions_america.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 964.
- (C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 964.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 964.
+s_europe.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
+ [27 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playsession
+s_asia.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/play
+sessions_america.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
+
+(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1039.
+
 Package rerunfilecheck Info: File `ijhcs-2014.out' has not changed.
 (rerunfilecheck)             Checksum: 54ED4F932FEE9C4A4815320934349D1C;1694.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 964.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1039.
  ) 
 Here is how much of TeX's memory you used:
- 18406 strings out of 493921
- 333434 string characters out of 3144853
- 403152 words of memory out of 3000000
- 21177 multiletter control sequences out of 15000+200000
+ 18417 strings out of 493921
+ 333697 string characters out of 3144853
+ 403402 words of memory out of 3000000
+ 21184 multiletter control sequences out of 15000+200000
  48802 words of font info for 111 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,10n,56p,1271b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,56p,1088b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
@@ -1146,9 +1165,9 @@ eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on ijhcs-2014.pdf (27 pages, 5313582 bytes).
+Output written on ijhcs-2014.pdf (27 pages, 5280644 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 606 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
