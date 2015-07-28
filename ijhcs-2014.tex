@@ -637,7 +637,8 @@ Clusters 2 and 4 have a high prevalence of smooth acceleration, whereby drivers 
 Detailed results for the clusters are shown in Table \ref{T:factors}.
 Please note that the cluster for ``normal'' drivers aggregates the vast majority of the drivers and shows an intermediate percentage of time on the smooth acceleration interval (59\%).
 
-The users who finished the engagement did not seem to strive away from the proportions obtained when performing the clustering analysis, which can be seen in Table \ref{T:factors}. The main difference being that the presence of ''Crazy Drivers'' seems to be more accentuated.
+\hl{The users who finished the engagement, shown in 
+}Figure \ref{fig:clusteringengagement}, did not seem to strive away from the proportions obtained when performing the clustering analysis, which can be seen in Table \ref{T:factors}. The main difference being that the presence of ''Crazy Drivers'' seems to be more accentuated.
 
 \begin{figure}[tb]
 	\begin{center}
@@ -653,7 +654,7 @@ After we classified users according to their driving behavior, we were curious h
 First, we are interested in the correlation between painting a car in a particular color and being an ``eco-unfriendly'' driver.\footnote{In the real world, such information can be interesting for insurance companies.}
 ``Eco-unfriendliness'' is characterized by the levels of the $factor_{eco}$ parameter in Table \ref{T:factors}. This enables us to order our clusters from the most to the least eco-friendly cluster: Cluster 4 $<$ Cluster 2 $<$ Cluster 3 $<$ Cluster 1, or ``Eco-Accelerator``  $<$ ``Eco-Braker`` $<$  Normal $<$ ``Crazy``.
 
-We use Kendall correlation coefficient to find associations between the data, which enables us to understand the relationship between the ranks of the variables. Kendall correlations provide a number between -1 and 1. A negative correlation coefficient means that it is negatively correlated, in this case, it means more eco-friendly users tend to do a certain behavior. When we have a positive correlation, it means that a certain behavior is associated with being more eco-unfriendlt, given our cluster ordering: ``Eco-Accelerator``  $<$ ``Eco-Braker`` $<$  Normal $<$ ``Crazy``.  We performed this analysis for every car color, for each server.
+We use Kendall correlation coefficient to find associations between the data, which enables us to understand the relationship between the ranks of the variables. \hl{Kendall correlations provide a number between -1 and 1. A negative correlation coefficient means that it is negatively correlated, in this case, it means more eco-friendly users tend to do a certain behavior.} When we have a positive correlation, it means that a certain behavior is associated with being more eco-unfriendly, given our cluster ordering: ``Eco-Accelerator``  $<$ ``Eco-Braker`` $<$  Normal $<$ ``Crazy``.  We performed this analysis for every car color, for each server.
 In case of the Kendall correlation coefficient, correlations less than 0.10 are considered very weak, correlations between 0.10 and 0.19 are considered weak, correlations between 0.20 and 0.29 are considered moderate, and correlations greater or equal than 0.30 are considered strong.
 
 We noticed that the different servers have distinct biases for the color chosen given the player profiles we obtained through clustering. 
@@ -706,13 +707,13 @@ We obtained four profiles regarding the way users spent their play time. Cluster
 %As expected driving takes up the majority of time spent in the game. Moreover the majority of players, only engages on the driving aspect of the game as we can see on the Cluster 3, which we labeled as "Pure Drivers".
 
 
-Figure \ref{fig:activity_driving} shows that  being a ''Pure Driver'' (as players) are more probable with the Eco-friendly players and the ''Çrazy'' ones.
-``Normal Drivers'' have an equal percentage of players only interested on the driving aspect (''Drivers'' and ''Pure Drivers'').
+Figure \ref{fig:activity_driving} \hl{shows that  being a ''Pure Driver'' (as players) are more probable with the Eco-friendly players and the ''Çrazy'' ones.
+``Normal Drivers'' have an equal percentage of players only interested on the driving aspect (''Drivers'' and ''Pure Drivers'').}
 %\hl{PLEASE RE-WRITE THE PREVIOUS SENTENCE INTO UNDERSTANDABLE FORMAT.}
 
 %Players that manifest interest in exploring each available activity of iCO$_2$  offer, those profiles are illustrated by the activity cluster labeled "In-Game Explorers" and "Refuellers".
 
-Surprisingly the ``Refuellers'' have a high prevalence among the eco-friendly drivers (``Eco-Brakers'' and ``Eco-Accelerators''). One reason to explain this behavior is the fact that the eco-friendly users were more conscious of their fuel tank display filling their tanks more often even though they were not empty.
+Surprisingly the ``Refuellers'' have a high prevalence among the eco-friendly drivers (``Eco-Brakers'' and ``Eco-Accelerators''). \hl{One reason to explain this behavior is the fact that the eco-friendly users were more conscious of their fuel tank display filling their tanks more often even though they were not empty.}
 %\hl{I AM NOT SURE BUT EACH DRIVER CAN SEE THE STATUS OF FUEL ALL THE TIME, DOES NOT HAVE TO GO TO THE GAS STATION, RIGHT? they can see the fuel every time }
 %The cluster labels as ``Refuelers`` is also one of which has more time spent on Route planning (Navigator), and manifested curiosity to try the various activities the game has to offer.
 Not surprisingly, the players labeled as ``Crazy Drivers'' are mostly ``Pure Drivers'' (35\%) and have the lowest prevalence of ``Refuelers''.

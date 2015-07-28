@@ -1,0 +1,191 @@
+\begin{thebibliography}{36}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Amazon Mechanical Turk(2014)}]{MechTurk}
+Amazon Mechanical Turk, March 2014. Amazon mechanical turk - welcome. Website.
+\newline\urlprefix\url{https://www.mturk.com/mturk/welcome}
+
+\bibitem[{Barkenbus(2010)}]{barkenbus2010eco}
+Barkenbus, J.~N., 2010. Eco-driving: An overlooked climate change initiative.
+  Energy Policy 38~(2), 762--769.
+
+\bibitem[{Biewald(2012)}]{Biewald:2012}
+Biewald, L., 2012. Massive multiplayer human computation for fun, money, and
+  survival. In: Harth, A., Koch, N. (Eds.), Current Trends in Web Engineering.
+  Vol. 7059 of Lecture Notes in Computer Science. Springer Berlin Heidelberg,
+  pp. 171--176.
+
+\bibitem[{Chan and Hsu(2012)}]{ChanH12}
+Chan, C.-W., Hsu, Y.-J., 2012. Sifu: Interactive crowd-assisted language
+  learning. In: AAAI Spring Symposium: Wisdom of the Crowd. AAAI Technical
+  Report. AAAI, pp. 16--20.
+
+\bibitem[{Cooper et~al.(2010)Cooper, Khatib, Treuille, Barbero, Lee, Beenen,
+  Leaver-Fay, Baker, Popovi{\'c}, et~al.}]{cooper2010predicting}
+Cooper, S., Khatib, F., Treuille, A., Barbero, J., Lee, J., Beenen, M.,
+  Leaver-Fay, A., Baker, D., Popovi{\'c}, Z., et~al., 2010. Predicting protein
+  structures with a multiplayer online game. Nature 466~(7307), 756--760.
+
+\bibitem[{Driver Ed To Go(2014)}]{EcoGame2}
+Driver Ed To Go, March 2014. Driver ed to go - driver's education online -
+  driver's ed game. Website.
+\newline\urlprefix\url{http://www.driveredtogo.com/game/eco-driving.aspx}
+
+\bibitem[{Eco Driving Tools(2014)}]{EcoTools}
+Eco Driving Tools, March 2014. Eco driving tools - energypedia.info. Website.
+\newline\urlprefix\url{https://energypedia.info/wiki/Eco\_Driving\_Tools}
+
+\bibitem[{Eco Friendly Driving Simulator(2014)}]{EcoSimulator2}
+Eco Friendly Driving Simulator, March 2014. Eco friendly driving simulator game
+  for exhibitions, education, or just for fun | sp events. Website.
+\newline\urlprefix\url{http://www.spevents.co.uk/our-events/event-selector/exhibition\_stand\_attractions/eco\_driver\_game.html}
+
+\bibitem[{Eco Simulator(2014)}]{EcoSimulator}
+Eco Simulator, March 2014. St software car driving simulator for driver
+  training, assessment and research. Website.
+\newline\urlprefix\url{http://www.stsoftware.nl/index.html}
+
+\bibitem[{Eco Sports Drive(2014)}]{EcoGame1}
+Eco Sports Drive, March 2014. Eco sports drive | freegames | adventure games |
+  star games | java games. Website.
+\newline\urlprefix\url{http://www.zopy.in/eco-sports-drive/}
+
+\bibitem[{Fiat Eco Drive(2014)}]{FiatEcoGame}
+Fiat Eco Drive, March 2014. Fiat | eco:drive. Website.
+\newline\urlprefix\url{http://www.fiat.com/com/PublishingImages/ecodrive-site/en/default.htm}
+
+\bibitem[{Gajananan et~al.(2013)Gajananan, Nantes, Miska, Nakasone, and
+  Prendinger}]{Gajananan+others.2013}
+Gajananan, K., Nantes, A., Miska, M., Nakasone, A., Prendinger, H., 2013. An
+  experimental space for conducting controlled driving behavior studies based
+  on a multiuser networked 3d virtual environment and the scenario markup
+  language. IEEE Transactions on Human-Machine Systems 43~(4), 345--358.
+
+\bibitem[{Green Dino(2014)}]{GreenDino}
+Green Dino, March 2014. Training --- green dino bv english. Website.
+\newline\urlprefix\url{http://www.greendino.nl/training-85.html}
+
+\bibitem[{Hartigan and Wong(1979)}]{KMEAN.1979}
+Hartigan, J.~A., Wong, M.~A., 1979. A {K}-means clustering algorithm. Applied
+  Statistics 28, 100--108.
+
+\bibitem[{Henze et~al.(2013)Henze, Shirazi, Schmidt, Pielot, and
+  Michahelles}]{Henze2013}
+Henze, N., Shirazi, A.~S., Schmidt, A., Pielot, M., Michahelles, F., 2013.
+  Empirical research through ubiquitous data collection. IEEE Computer, 74--76.
+
+\bibitem[{Howe(2008)}]{howe2008crowdsourcing}
+Howe, J., 2008. Crowdsourcing: How the power of the crowd is driving the future
+  of business. Random House.
+
+\bibitem[{Kittur et~al.(2008)Kittur, Chi, and Suh}]{kittur2008crowdsourcing}
+Kittur, A., Chi, E.~H., Suh, B., 2008. Crowdsourcing user studies with
+  mechanical turk. In: Proceedings of the SIGCHI conference on human factors in
+  computing systems. ACM, pp. 453--456.
+
+\bibitem[{Krause and Smeddinck(2011)}]{Krause+Smeddinck.2011}
+Krause, M., Smeddinck, J., 2011. Human computation games: A survey. In: 19th
+  Social Signal Processing Conference. pp. 754--758.
+
+\bibitem[{Law and von Ahn(2009)}]{Law:2009}
+Law, E., von Ahn, L., 2009. Input-agreement: A new mechanism for collecting
+  data using human computation games. In: Proceedings of the SIGCHI Conference
+  on Human Factors in Computing Systems. CHI '09. ACM, New York, NY, USA, pp.
+  1197--1206.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/1518701.1518881}
+
+\bibitem[{Law et~al.(2009)Law, West, Mandel, Bay, and Downie}]{vonAhn&Law:2009}
+Law, E., West, K., Mandel, M.~I., Bay, M., Downie, J.~S., 2009. Evaluation of
+  algorithms using games: The case of music tagging. In: Hirata, K.,
+  Tzanetakis, G., Yoshii, K. (Eds.), ISMIR. International Society for Music
+  Information Retrieval, pp. 387--392.
+
+\bibitem[{Moebius(2014)}]{Moebius}
+Moebius, March 2014. Moebius eco-driving serious game.
+\newline\urlprefix\url{http://www.seriousfactory.com/en/moebius-by-vulog/}
+
+\bibitem[{Prendinger et~al.(2013)Prendinger, Gajananan, Zaki, Fares, Molenaar,
+  Urbano, Lint, and Gomaa}]{Prendinger+others.2013}
+Prendinger, H., Gajananan, K., Zaki, A.~B., Fares, A., Molenaar, R., Urbano,
+  D., Lint, H.~v., Gomaa, W., 2013. Tokyo virtual living lab: Designing smart
+  cities based on the 3d internet. IEEE Internet Computing 17~(6), 30--38.
+
+\bibitem[{Prendinger et~al.(2014{\natexlab{a}})Prendinger, Miska, Gajananan,
+  and Nantes}]{Prendinger+others.2014}
+Prendinger, H., Miska, M., Gajananan, K., Nantes, A., 2014{\natexlab{a}}. A
+  cyber-physical system simulator for risk-free transport studies.
+  Computer-Aided Civil and Infrastructure Engineering 29~(7), 480--495.
+
+\bibitem[{Prendinger et~al.(2014{\natexlab{b}})Prendinger, Oliveira, Catarino,
+  Madruga, and Prada}]{prendingeroliveira2014}
+Prendinger, H., Oliveira, J., Catarino, J., Madruga, M., Prada, R.,
+  2014{\natexlab{b}}. {iCO$_2$}: a networked game for collecting large-scale
+  eco-driving behavior data. IEEE Internet Computing 18~(3), 28--35.
+
+\bibitem[{Quinn and Bederson(2011)}]{Quinn}
+Quinn, A.~J., Bederson, B.~B., 2011. Human computation: A survey and taxonomy
+  of a growing field. In: Proceedings of the SIGCHI Conference on Human Factors
+  in Computing Systems. CHI '11. ACM, New York, NY, USA, pp. 1403--1412.
+
+\bibitem[{Sabrina et~al.(2013)Sabrina, Fabrice, Benjamin, Jo{\"e}l,
+  Jean-Michel, Andras, and Fr{\'e}d{\'e}ric}]{sabrina2013enhanced}
+Sabrina, B., Fabrice, C., Benjamin, V., Jo{\"e}l, V., Jean-Michel, B., Andras,
+  K., Fr{\'e}d{\'e}ric, M., 2013. Enhanced game mode for eco-driving simulator.
+  Update 17, 09.
+
+\bibitem[{Shaheen et~al.(2012)Shaheen, Martin, and
+  Finson}]{shaheen2012ecodriving}
+Shaheen, S., Martin, E., Finson, R., 2012. Ecodriving and carbon footprinting:
+  Understanding how public education can reduce greenhouse gas emissions and
+  fuel use. Tech. rep., Mineta Transportation Institute.
+
+\bibitem[{Thorndike(1953)}]{Thorndike.1953}
+Thorndike, R., December 1953. {Who belongs in the family?} Psychometrika
+  18~(4), 275.
+
+\bibitem[{Truck Fuel Eco(2014)}]{TruckEcoGame}
+Truck Fuel Eco, March 2014. Truck fuel eco driving on the app store on itunes.
+  Website.
+\newline\urlprefix\url{https://itunes.apple.com/gb/app/truck-fuel-eco-driving/id563171974?mt=8}
+
+\bibitem[{Violi et~al.(2011)Violi, Golbeck, Cheng, and Kuter}]{Violi:2011}
+Violi, N., Golbeck, J., Cheng, K.-L., Kuter, U., Oct 2011. Caretaker: A social
+  game for studying trust dynamics. In: Privacy, security, risk and trust
+  (passat), 2011 IEEE Third International Conference on Social Computing
+  (Socialcom). pp. 451--456.
+
+\bibitem[{von Ahn(2006)}]{vonAhn2006Games}
+von Ahn, L., June 2006. {Games with a Purpose}. Computer 39~(6), 92--94.
+\newline\urlprefix\url{http://www.cs.cmu.edu/~biglou/ieee-gwap.pdf}
+
+\bibitem[{von Ahn and Dabbish(2004)}]{vonAhn:2004}
+von Ahn, L., Dabbish, L., 2004. Labeling images with a computer game. In:
+  Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
+  CHI '04. ACM, New York, NY, USA, pp. 319--326.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/985692.985733}
+
+\bibitem[{von Ahn and Dabbish(2008)}]{vonAhn.2008}
+von Ahn, L., Dabbish, L., Aug. 2008. Designing games with a purpose. Commun.
+  ACM 51~(8), 58--67.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/1378704.1378719}
+
+\bibitem[{von Ahn et~al.(2007)von Ahn, Ginosar, Kedia, and Blum}]{vonAhn:2007}
+von Ahn, L., Ginosar, S., Kedia, M., Blum, M., April 2007. Improving image
+  search with phetch. In: IEEE International Conference on Acoustics, Speech
+  and Signal Processing, 2007. ICASSP 2007. Vol.~4. pp. IV--1209--IV--1212.
+
+\bibitem[{von Ahn et~al.(2006)von Ahn, Liu, and Blum}]{vonAhn:2006}
+von Ahn, L., Liu, R., Blum, M., 2006. Peekaboom: A game for locating objects in
+  images. In: Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems. CHI '06. ACM, New York, NY, USA, pp. 55--64.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/1124772.1124782}
+
+\bibitem[{Yuen et~al.(2009)Yuen, Chen, and King}]{Yuen.2009}
+Yuen, M.-C., Chen, L.-J., King, I., 2009. A survey of human computation
+  systems. In: International Conference on Computational Science and
+  Engineering (CSE'09). pp. 723--728.
+
+\end{thebibliography}

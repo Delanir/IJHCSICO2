@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  26 JUL 2015 10:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.8)  27 JUL 2015 15:25
 entering extended mode
 **ijhcs-2014.tex
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.tex
+
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -95,8 +97,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.spl)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.spl) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -708,7 +710,8 @@ LaTeX Info: Redefining \addtolength on input line 77.
 )
 \c@@todonotes@numberoftodonotes=\count140
 )
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
@@ -718,8 +721,7 @@ LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 87.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 87
 .
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 87.
@@ -822,11 +824,12 @@ LaTeX Info: Redefining \ref on input line 87.
 LaTeX Info: Redefining \pageref on input line 87.
 LaTeX Info: Redefining \nameref on input line 87.
 
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.out)
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.out)
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.out)
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.out)
 \@outlinefile=\write5
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 11
@@ -923,8 +926,8 @@ File: ijhcs14-img/iCO2_driving.png Graphic file (type png)
 <use ijhcs14-img/iCO2_driving.png>
 Package pdftex.def Info: ijhcs14-img/iCO2_driving.png used on input line 280.
 (pdftex.def)             Requested size: 418.96547pt x 262.93095pt.
- [5] [6 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_dri
-ving.png>]
+ [5] [6 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/
+ijhcs14-img/iCO2_driving.png>]
 <ijhcs14-img/iCO2_garage.png, id=283, 858.20625pt x 534.19576pt>
 File: ijhcs14-img/iCO2_garage.png Graphic file (type png)
 
@@ -939,8 +942,8 @@ File: ijhcs14-img/iCO2_navigator.png Graphic file (type png)
 Package pdftex.def Info: ijhcs14-img/iCO2_navigator.png used on input line 322.
 
 (pdftex.def)             Requested size: 418.96547pt x 261.723pt.
- [7 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_garage.
-png>]
+ [7 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhc
+s14-img/iCO2_garage.png>]
 <ijhcs14-img/iCO2_generalarchitecture.png, id=300, 469.2732pt x 302.0886pt>
 File: ijhcs14-img/iCO2_generalarchitecture.png Graphic file (type png)
 
@@ -961,8 +964,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 349.
 
-[8 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_navigato
-r.png>] <ijhcs14-img/engagement.png, id=318, 626.34pt x 231.86626pt>
+[8 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhcs
+14-img/iCO2_navigator.png>]
+<ijhcs14-img/engagement.png, id=318, 626.34pt x 231.86626pt>
 File: ijhcs14-img/engagement.png Graphic file (type png)
 
 <use ijhcs14-img/engagement.png>
@@ -995,11 +999,12 @@ Overfull \hbox (4.37006pt too wide) in paragraph at lines 415--430
  [] 
  []
 
-[9 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/iCO2_generala
-rchitecture.png>] [10 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs1
-4-img/engagement.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs1
-4-img/completion.png>] [11 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/i
-jhcs14-img/colour_all.png>]
+[9 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhcs
+14-img/iCO2_generalarchitecture.png>] [10 <C:/Users/PrendingerLab/Desktop/Media
+Fire/MediaFire/tomorrow/IJHCSICO2/ijhcs14-img/engagement.png> <C:/Users/Prendin
+gerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhcs14-img/completion.pn
+g>] [11 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/
+ijhcs14-img/colour_all.png>]
 <ijhcs14-img/time.png, id=363, 490.83376pt x 397.485pt>
 File: ijhcs14-img/time.png Graphic file (type png)
 
@@ -1013,8 +1018,8 @@ File: ijhcs14-img/Color.png Graphic file (type png)
 <use ijhcs14-img/Color.png>
 Package pdftex.def Info: ijhcs14-img/Color.png used on input line 491.
 (pdftex.def)             Requested size: 418.96547pt x 254.41875pt.
- [12 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/transaction
-s_all.png>]
+ [12 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijh
+cs14-img/transactions_all.png>]
 <ijhcs14-img/Transactions.png, id=378, 912.40875pt x 554.07pt>
 File: ijhcs14-img/Transactions.png Graphic file (type png)
 
@@ -1026,54 +1031,64 @@ Overfull \hbox (4.37006pt too wide) in paragraph at lines 535--549
  [] 
  []
 
-[13 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/time.png>]
-[14 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Color.png>]
-[15 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Transactions
-.png>] <ijhcs14-img/kmeansclustering.png, id=421, 541.27219pt x 303.38344pt>
+[13 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhc
+s14-img/time.png>] [14 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomo
+rrow/IJHCSICO2/ijhcs14-img/Color.png>] [15 <C:/Users/PrendingerLab/Desktop/Medi
+aFire/MediaFire/tomorrow/IJHCSICO2/ijhcs14-img/Transactions.png>]
+<ijhcs14-img/kmeansclustering.png, id=421, 541.27219pt x 303.38344pt>
 File: ijhcs14-img/kmeansclustering.png Graphic file (type png)
 
 <use ijhcs14-img/kmeansclustering.png>
 Package pdftex.def Info: ijhcs14-img/kmeansclustering.png used on input line 60
 8.
 (pdftex.def)             Requested size: 441.01772pt x 247.19745pt.
- [16 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/kmeansclust
-ering.png (PNG copy)>]
-<ijhcs14-img/Rplot01.png, id=431, 912.40875pt x 554.07pt>
+ [16 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijh
+cs14-img/kmeansclustering.png (PNG copy)>] <ijhcs14-img/Rplot01.png, id=432, 91
+2.40875pt x 554.07pt>
 File: ijhcs14-img/Rplot01.png Graphic file (type png)
 
 <use ijhcs14-img/Rplot01.png>
-Package pdftex.def Info: ijhcs14-img/Rplot01.png used on input line 644.
+Package pdftex.def Info: ijhcs14-img/Rplot01.png used on input line 645.
 (pdftex.def)             Requested size: 441.01772pt x 267.81055pt.
- [17] [18 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/Rplot0
-1.png>]
+ [17] [18 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO
+2/ijhcs14-img/Rplot01.png>]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ‡ in font ptmr7t!
 
-<ijhcs14-img/cluster_activities_driver_types.png, id=450, 532.99126pt x 271.765
+<ijhcs14-img/cluster_activities_driver_types.png, id=451, 532.99126pt x 271.765
 32pt>
 File: ijhcs14-img/cluster_activities_driver_types.png Graphic file (type png)
  <use ijhcs14-img/cluster_activities_driver_types.png>
 Package pdftex.def Info: ijhcs14-img/cluster_activities_driver_types.png used o
-n input line 725.
+n input line 726.
 (pdftex.def)             Requested size: 352.8155pt x 179.90059pt.
 
-<ijhcs14-img/Evolution.pdf, id=451, 505.89pt x 505.89pt>
+<ijhcs14-img/Evolution.pdf, id=452, 505.89pt x 505.89pt>
 File: ijhcs14-img/Evolution.pdf Graphic file (type pdf)
 
 <use ijhcs14-img/Evolution.pdf>
-Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 738.
+Package pdftex.def Info: ijhcs14-img/Evolution.pdf used on input line 739.
 (pdftex.def)             Requested size: 441.01772pt x 441.02388pt.
- [19 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/cluster_act
-ivities_driver_types.png (PNG copy)>] [20 <C:/Users/PrendingerLab/Desktop/tomor
-row/IJHCSICO2/ijhcs14-img/Evolution.pdf>]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 759.
+ [19 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijh
+cs14-img/cluster_activities_driver_types.png (PNG copy)>] [20 <C:/Users/Prendin
+gerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhcs14-img/Evolution.pdf
+>]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 760.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 759.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 760.
  [21]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -1084,7 +1099,8 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.bbl [22]
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.bbl [22]
 Underfull \hbox (badness 10000) in paragraph at lines 50--53
 \OT1/ptm/m/n/12 URL []$\OT1/pcr/m/n/12 http : / / www . spevents . co . uk / ou
 r -[] events / event -[] selector / exhibition _$
@@ -1108,48 +1124,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--190
 app / truck -[] fuel -[] eco -[] driving /$
  []
 
-[25]) <ijhcs14-img/playsessions_europe.png, id=531, 858.20625pt x 546.04pt>
+[25]) <ijhcs14-img/playsessions_europe.png, id=532, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_europe.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_europe.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_europe.png used on input line
- 966.
+ 967.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_asia.png, id=532, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_asia.png, id=533, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_asia.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_asia.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_asia.png used on input line 9
-73.
+74.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
 
-<ijhcs14-img/playsessions_america.png, id=533, 858.20625pt x 546.04pt>
+<ijhcs14-img/playsessions_america.png, id=534, 858.20625pt x 546.04pt>
 File: ijhcs14-img/playsessions_america.png Graphic file (type png)
 
 <use ijhcs14-img/playsessions_america.png>
 Package pdftex.def Info: ijhcs14-img/playsessions_america.png used on input lin
-e 980.
+e 981.
 (pdftex.def)             Requested size: 352.8155pt x 224.47774pt.
- [26 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playsession
-s_europe.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
- [27 <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/playsession
-s_asia.png> <C:/Users/PrendingerLab/Desktop/tomorrow/IJHCSICO2/ijhcs14-img/play
-sessions_america.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
+ [26 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijh
+cs14-img/playsessions_europe.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1040.
 
-(C:\Users\PrendingerLab\Desktop\tomorrow\IJHCSICO2\ijhcs-2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1039.
+[27 <C:/Users/PrendingerLab/Desktop/MediaFire/MediaFire/tomorrow/IJHCSICO2/ijhc
+s14-img/playsessions_asia.png> <C:/Users/PrendingerLab/Desktop/MediaFire/MediaF
+ire/tomorrow/IJHCSICO2/ijhcs14-img/playsessions_america.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1040.
+
+(C:\Users\PrendingerLab\Desktop\MediaFire\MediaFire\tomorrow\IJHCSICO2\ijhcs-20
+14.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1040.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1040.
 
 Package rerunfilecheck Info: File `ijhcs-2014.out' has not changed.
 (rerunfilecheck)             Checksum: 54ED4F932FEE9C4A4815320934349D1C;1694.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1039.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1040.
  ) 
 Here is how much of TeX's memory you used:
  18417 strings out of 493921
- 333697 string characters out of 3144853
+ 333997 string characters out of 3144853
  403402 words of memory out of 3000000
  21184 multiletter control sequences out of 15000+200000
  48802 words of font info for 111 fonts, out of 3000000 for 9000
@@ -1165,9 +1183,9 @@ eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on ijhcs-2014.pdf (27 pages, 5280644 bytes).
+Output written on ijhcs-2014.pdf (27 pages, 5284519 bytes).
 PDF statistics:
- 606 PDF objects out of 1000 (max. 8388607)
+ 607 PDF objects out of 1000 (max. 8388607)
  133 named destinations out of 1000 (max. 500000)
  295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
